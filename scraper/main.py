@@ -46,26 +46,46 @@ def load_adapters() -> List[SiteAdapter]:
     return [SiteAdapter(**item) for item in raw]
 
 
-def allowed_search_templates(adapter: SiteAdapter, robots_policy: RobotsPolicy) -> List[str]:
+def build_search_jobs(search_templates: List[str], queries: List[str]):
+    jobs = []
+    seen_urls = set()
+
+    for template in search_templates:
+        template_queries = queries if "{query}" in template else [""]
+        for keyword in template_queries:
+            encoded = quote_plus(keyword) if keyword else ""
+            search_url = template.format(query=encoded)
+            if search_url in seen_urls:
+                continue
+            seen_urls.add(search_url)
+            jobs.append((keyword or "[static]", search_url))
+
+    return jobs
+
+
+def allowed_search_templates(adapter: SiteAdapter, fetcher: Fetcher, robots_policy: RobotsPolicy) -> List[str]:
     allowed = []
-    blocked = []
     probe_query = "potato+buyer+india"
 
     for template in adapter.search_urls:
         probe_url = template.format(query=probe_query)
         if robots_policy.can_fetch(adapter.base_url, probe_url):
-            allowed.append(template)
-        else:
-            blocked.append(probe_url)
+            html = fetcher.fetch_html(probe_url)
+            if not html:
+                reason = fetcher.last_error or f"status={fetcher.last_status_code or 'unknown'}"
+                logging.warning("[SKIP] %s sample request failed for %s (%s)", adapter.name, probe_url, reason)
+                continue
 
-    if blocked:
-        logging.warning(
-            "[SKIP] %s robots disallow %s/%s search templates; sample: %s",
-            adapter.name,
-            len(blocked),
-            len(adapter.search_urls),
-            blocked[0],
-        )
+            soup = BeautifulSoup(html, "html.parser")
+            profile_links = collect_profile_links(probe_url, soup, adapter)
+            if not profile_links:
+                logging.warning("[SKIP] %s sample page had no profile links: %s", adapter.name, probe_url)
+                continue
+
+            allowed.append(template)
+            continue
+
+        logging.warning("[SKIP] %s robots disallow search template: %s", adapter.name, probe_url)
 
     return allowed
 
@@ -75,39 +95,34 @@ def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, r
         logging.info("[SKIP] %s disabled", adapter.name)
         return []
 
-    search_templates = allowed_search_templates(adapter, robots_policy)
+    search_templates = allowed_search_templates(adapter, fetcher, robots_policy)
     if not search_templates:
         return []
 
     all_leads = []
     seen_profiles = set()
 
-    for keyword in queries:
-        encoded = quote_plus(keyword)
+    for keyword_label, search_url in build_search_jobs(search_templates, queries):
+        logging.info("[SEARCH] %s | %s", adapter.name, keyword_label)
+        html = fetcher.fetch_html(search_url)
+        if not html:
+            continue
 
-        for template in search_templates:
-            search_url = template.format(query=encoded)
+        soup = BeautifulSoup(html, "html.parser")
+        profile_links = collect_profile_links(search_url, soup, adapter)
 
-            logging.info("[SEARCH] %s | %s", adapter.name, keyword)
-            html = fetcher.fetch_html(search_url)
-            if not html:
+        if not profile_links:
+            logging.info("[NO PROFILE LINKS] %s | %s", adapter.name, keyword_label)
+
+        for profile_url in profile_links[: adapter.max_profiles_per_query]:
+            if profile_url in seen_profiles:
                 continue
+            seen_profiles.add(profile_url)
 
-            soup = BeautifulSoup(html, "html.parser")
-            profile_links = collect_profile_links(search_url, soup, adapter)
-
-            if not profile_links:
-                logging.info("[NO PROFILE LINKS] %s | %s", adapter.name, keyword)
-
-            for profile_url in profile_links[: adapter.max_profiles_per_query]:
-                if profile_url in seen_profiles:
-                    continue
-                seen_profiles.add(profile_url)
-
-                leads = scrape_profile(adapter, profile_url, fetcher, robots_policy)
-                if leads:
-                    logging.info("[FOUND] %s -> %s leads", profile_url, len(leads))
-                    all_leads.extend(leads)
+            leads = scrape_profile(adapter, profile_url, fetcher, robots_policy)
+            if leads:
+                logging.info("[FOUND] %s -> %s leads", profile_url, len(leads))
+                all_leads.extend(leads)
 
     return dedupe(all_leads)
 

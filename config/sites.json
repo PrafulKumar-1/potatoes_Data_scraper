@@ -118,13 +118,19 @@
     "name": "IndiaMART",
     "base_url": "https://www.indiamart.com",
     "search_urls": [
-      "https://dir.indiamart.com/search.mp?ss={query}"
+      "https://dir.indiamart.com/impcat/potato.html",
+      "https://dir.indiamart.com/impcat/frozen-potato.html",
+      "https://dir.indiamart.com/impcat/potato-starch.html",
+      "https://dir.indiamart.com/impcat/seed-potatoes.html",
+      "https://dir.indiamart.com/impcat/french-fries.html",
+      "https://dir.indiamart.com/impcat/potato-powder.html",
+      "https://dir.indiamart.com/impcat/potato-flake.html",
+      "https://dir.indiamart.com/impcat/potato-granule.html"
     ],
     "listing_link_selector": "a[href]",
     "company_name_selector": "h2, h1, .bo center-heading, [class*='company']",
     "enabled": true,
     "profile_url_must_contain": [
-      "/impcat/",
       "/proddetail/",
       "/company/",
       "/seller/"
