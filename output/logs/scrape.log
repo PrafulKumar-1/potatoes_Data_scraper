@@ -1064,3 +1064,51 @@
 2026-03-17 15:19:50,489 | INFO | Saved 0 leads
 2026-03-17 15:19:50,489 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
 2026-03-17 15:19:50,489 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
+2026-03-17 15:29:39,193 | WARNING | [SKIP] Europages robots disallow search template: https://www.europages.co.uk/companies/potato+buyer+india.html
+2026-03-17 15:29:39,193 | INFO | [ADAPTER DONE] Europages -> 0 leads
+2026-03-17 15:29:39,589 | WARNING | [SKIP] Kompass robots disallow search template: https://www.kompass.com/en/searchCompanies/?text=potato+buyer+india
+2026-03-17 15:29:39,589 | INFO | [ADAPTER DONE] Kompass -> 0 leads
+2026-03-17 15:29:39,702 | WARNING | [SKIP] TradeIndia robots disallow search template: https://www.tradeindia.com/search.html?keyword=potato+buyer+india
+2026-03-17 15:29:39,702 | INFO | [ADAPTER DONE] TradeIndia -> 0 leads
+2026-03-17 15:29:40,159 | WARNING | [SKIP] ExportersIndia robots disallow search template: https://www.exportersindia.com/search.php?keyword=potato+buyer+india
+2026-03-17 15:29:40,159 | INFO | [ADAPTER DONE] ExportersIndia -> 0 leads
+2026-03-17 15:29:41,209 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:29:44,073 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-potato-2853452556091.html -> 1 leads
+2026-03-17 15:29:46,042 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-kufri-bahar-fresh-white-potato-2856728519962.html -> 1 leads
+2026-03-17 15:29:51,030 | INFO | [FOUND] https://www.indiamart.com/proddetail/santana-fresh-potato-2850014190862.html -> 1 leads
+2026-03-17 15:29:52,865 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2857605179812.html -> 1 leads
+2026-03-17 15:29:55,772 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-26743128673.html -> 1 leads
+2026-03-17 15:30:00,495 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-8760146848.html -> 1 leads
+2026-03-17 15:30:07,858 | INFO | [FOUND] https://www.indiamart.com/proddetail/lr-chips-potato-24803691797.html -> 1 leads
+2026-03-17 15:30:10,849 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-table-potato-2853593372730.html -> 1 leads
+2026-03-17 15:30:13,335 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-2852677306762.html -> 1 leads
+2026-03-17 15:30:17,973 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-vegetable-2852989540373.html -> 1 leads
+2026-03-17 15:30:20,728 | INFO | [FOUND] https://www.indiamart.com/proddetail/brown-fresh-potato-25224293448.html -> 1 leads
+2026-03-17 15:30:31,080 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-domestic-grade-2856638133555.html -> 1 leads
+2026-03-17 15:30:34,116 | INFO | [FOUND] https://www.indiamart.com/proddetail/fry-sona-potato-2854979346197.html -> 1 leads
+2026-03-17 15:30:35,943 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2858055156362.html -> 1 leads
+2026-03-17 15:30:38,865 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-brown-4793509562.html -> 1 leads
+2026-03-17 15:30:43,661 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potatoes-2987640330.html -> 1 leads
+2026-03-17 15:30:45,507 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-jyoti-potato-2850528757555.html -> 1 leads
+2026-03-17 15:30:54,288 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-3797-potato-23866520533.html -> 1 leads
+2026-03-17 15:30:56,783 | INFO | [FOUND] https://www.indiamart.com/proddetail/garden-fresh-potatoes-20040124448.html -> 1 leads
+2026-03-17 15:30:59,755 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-chips-potato-2856631680297.html -> 1 leads
+2026-03-17 15:31:02,624 | INFO | [FOUND] https://www.indiamart.com/proddetail/indore-chipsona-potatoes-2851668428588.html -> 1 leads
+2026-03-17 15:31:05,019 | INFO | [FOUND] https://www.indiamart.com/proddetail/3797-a-grade-white-potato-2855235665362.html -> 1 leads
+2026-03-17 15:31:05,529 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:09,203 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:13,480 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:17,747 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:22,032 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:26,330 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:30,587 | INFO | [SEARCH] IndiaMART | [static]
+2026-03-17 15:31:32,086 | INFO | [ADAPTER DONE] IndiaMART -> 22 leads
+2026-03-17 15:31:32,660 | WARNING | [SKIP] Justdial sample request failed for https://www.justdial.com/search?q=potato+buyer+india (403 Client Error: Forbidden for url: https://www.justdial.com/search?q=potato+buyer+india)
+2026-03-17 15:31:32,660 | INFO | [ADAPTER DONE] Justdial -> 0 leads
+2026-03-17 15:31:32,891 | WARNING | [SKIP] Yellow Pages India robots disallow search template: https://www.yellowpages.in/search/potato+buyer+india
+2026-03-17 15:31:32,891 | INFO | [ADAPTER DONE] Yellow Pages India -> 0 leads
+2026-03-17 15:31:33,286 | WARNING | [SKIP] Go4WorldBusiness sample request failed for https://www.go4worldbusiness.com/find?searchText=potato+buyer+india (status=202)
+2026-03-17 15:31:33,287 | INFO | [ADAPTER DONE] Go4WorldBusiness -> 0 leads
+2026-03-17 15:31:33,288 | INFO | Saved 22 leads
+2026-03-17 15:31:33,288 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
+2026-03-17 15:31:33,289 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
