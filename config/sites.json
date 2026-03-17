@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Europages",
+    "base_url": "https://www.europages.co.uk",
+    "search_urls": [
+      "https://www.europages.co.uk/companies/{query}.html"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .company-name, [class*='company']",
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/companies/",
+      "/company/",
+      "/business/"
+    ]
+  },
+  {
+    "name": "Kompass",
+    "base_url": "https://www.kompass.com",
+    "search_urls": [
+      "https://www.kompass.com/en/searchCompanies/?text={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .companyName, .company-name, [class*='company']",
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/c/",
+      "/company/"
+    ]
+  },
+  {
+    "name": "TradeIndia",
+    "base_url": "https://www.tradeindia.com",
+    "search_urls": [
+      "https://www.tradeindia.com/search.html?keyword={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .company-name, [class*='company']",
+    "enabled": true
+  },
+  {
+    "name": "ExportersIndia",
+    "base_url": "https://www.exportersindia.com",
+    "search_urls": [
+      "https://www.exportersindia.com/search.php?keyword={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .company-name, [class*='company']",
+    "enabled": true
+  },
+  {
+    "name": "IndiaMART",
+    "base_url": "https://www.indiamart.com",
+    "search_urls": [
+      "https://dir.indiamart.com/search.mp?ss={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .bo center-heading, [class*='company']",
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/impcat/",
+      "/proddetail/",
+      "/company/",
+      "/seller/"
+    ]
+  },
+  {
+    "name": "Justdial",
+    "base_url": "https://www.justdial.com",
+    "search_urls": [
+      "https://www.justdial.com/search?q={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .jsx-6f4764e7, [class*='company']",
+    "enabled": true
+  },
+  {
+    "name": "Yellow Pages India",
+    "base_url": "https://www.yellowpages.in",
+    "search_urls": [
+      "https://www.yellowpages.in/search/{query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .company-name, [class*='company']",
+    "enabled": true
+  },
+  {
+    "name": "Go4WorldBusiness",
+    "base_url": "https://www.go4worldbusiness.com",
+    "search_urls": [
+      "https://www.go4worldbusiness.com/find?searchText={query}"
+    ],
+    "listing_link_selector": "a[href]",
+    "company_name_selector": "h1, h2, .company-name, [class*='company']",
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/member/",
+      "/company/",
+      "/buyer/"
+    ]
+  }
+]
