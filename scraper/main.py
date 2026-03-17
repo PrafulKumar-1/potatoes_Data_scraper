@@ -28,6 +28,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+
 def setup_logging():
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
@@ -39,9 +40,11 @@ def setup_logging():
         ],
     )
 
+
 def load_adapters() -> List[SiteAdapter]:
     raw = load_json(SITES_FILE)
     return [SiteAdapter(**item) for item in raw]
+
 
 def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, robots_policy: RobotsPolicy):
     if not adapter.enabled:
@@ -53,6 +56,7 @@ def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, r
 
     for keyword in queries:
         encoded = quote_plus(keyword)
+
         for template in adapter.search_urls:
             search_url = template.format(query=encoded)
 
@@ -68,6 +72,9 @@ def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, r
             soup = BeautifulSoup(html, "html.parser")
             profile_links = collect_profile_links(search_url, soup, adapter)
 
+            if not profile_links:
+                logging.info("[NO PROFILE LINKS] %s | %s", adapter.name, keyword)
+
             for profile_url in profile_links[: adapter.max_profiles_per_query]:
                 if profile_url in seen_profiles:
                     continue
@@ -80,6 +87,7 @@ def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, r
 
     return dedupe(all_leads)
 
+
 def main():
     setup_logging()
     fetcher = Fetcher(headers=HEADERS, timeout=REQUEST_TIMEOUT)
@@ -90,16 +98,21 @@ def main():
 
     all_leads = []
     for adapter in adapters:
-        all_leads.extend(scrape_adapter(adapter, queries, fetcher, robots_policy))
+        adapter_leads = scrape_adapter(adapter, queries, fetcher, robots_policy)
+        logging.info("[ADAPTER DONE] %s -> %s leads", adapter.name, len(adapter_leads))
+        all_leads.extend(adapter_leads)
 
     all_leads = dedupe(all_leads)
-    all_leads = [
-        lead for lead in all_leads
-        if lead.company_email and (lead.country_guess == "India" or "india" in (lead.source_url or "").lower())
-    ]
+
+    # relaxed filter for debugging
+    all_leads = [lead for lead in all_leads if lead.company_email]
 
     export_leads(all_leads, CSV_OUTPUT, JSON_OUTPUT)
+
     logging.info("Saved %s leads", len(all_leads))
+    logging.info("CSV saved to: %s", CSV_OUTPUT.resolve())
+    logging.info("JSON saved to: %s", JSON_OUTPUT.resolve())
+
 
 if __name__ == "__main__":
     main()

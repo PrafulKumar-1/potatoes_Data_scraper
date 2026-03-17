@@ -12,6 +12,20 @@
       "/companies/",
       "/company/",
       "/business/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news",
+      "contact-us",
+      "about-us"
     ]
   },
   {
@@ -26,6 +40,18 @@
     "profile_url_must_contain": [
       "/c/",
       "/company/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news"
     ]
   },
   {
@@ -36,7 +62,26 @@
     ],
     "listing_link_selector": "a[href]",
     "company_name_selector": "h1, h2, .company-name, [class*='company']",
-    "enabled": true
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/seller/",
+      "/company/",
+      "/manufacturer/",
+      "/supplier/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news",
+      "/search.html"
+    ]
   },
   {
     "name": "ExportersIndia",
@@ -46,7 +91,28 @@
     ],
     "listing_link_selector": "a[href]",
     "company_name_selector": "h1, h2, .company-name, [class*='company']",
-    "enabled": true
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/",
+      ".htm"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news",
+      "search.php",
+      "contact-us",
+      "about-us",
+      "terms-conditions",
+      "privacy-policy"
+    ]
   },
   {
     "name": "IndiaMART",
@@ -62,6 +128,18 @@
       "/proddetail/",
       "/company/",
       "/seller/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news"
     ]
   },
   {
@@ -72,7 +150,24 @@
     ],
     "listing_link_selector": "a[href]",
     "company_name_selector": "h1, h2, .jsx-6f4764e7, [class*='company']",
-    "enabled": true
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/",
+      "-"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news",
+      "/search"
+    ]
   },
   {
     "name": "Yellow Pages India",
@@ -82,7 +177,23 @@
     ],
     "listing_link_selector": "a[href]",
     "company_name_selector": "h1, h2, .company-name, [class*='company']",
-    "enabled": true
+    "enabled": true,
+    "profile_url_must_contain": [
+      "/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news",
+      "/search/"
+    ]
   },
   {
     "name": "Go4WorldBusiness",
@@ -97,6 +208,18 @@
       "/member/",
       "/company/",
       "/buyer/"
+    ],
+    "profile_url_must_not_contain": [
+      "privacy",
+      "terms",
+      "policy",
+      "login",
+      "signup",
+      "register",
+      "faq",
+      "help",
+      "blog",
+      "news"
     ]
   }
 ]
