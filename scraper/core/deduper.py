@@ -4,11 +4,15 @@ from typing import Iterable, List, Tuple
 from scraper.core.scorer import email_domain, quality_score
 from scraper.models.lead import Lead
 
+CORPORATE_SUFFIX_RE = re.compile(
+    r"\b(?:private limited|pvt ltd|pvt|ltd|llp|limited|inc|co|company)\b"
+)
+
+
 def normalize_company_name(name: str) -> str:
     value = (name or "").lower().strip()
     value = re.sub(r"[^a-z0-9\s]", " ", value)
-    for token in ["private limited", "pvt ltd", "pvt", "ltd", "llp", "limited", "inc", "co", "company"]:
-        value = value.replace(token, " ")
+    value = CORPORATE_SUFFIX_RE.sub(" ", value)
     value = re.sub(r"\s+", " ", value).strip()
     return value
 

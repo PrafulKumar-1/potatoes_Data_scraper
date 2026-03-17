@@ -1,18 +1,5 @@
-from urllib.parse import urljoin, urlparse
-
-
-def normalize_url(base_url: str, href: str):
-    if not href:
-        return None
-    if href.startswith("javascript:") or href.startswith("mailto:") or href.startswith("tel:"):
-        return None
-    return urljoin(base_url, href)
-
-
-def same_domain(a: str, b: str) -> bool:
-    da = urlparse(a).netloc.replace("www.", "")
-    db = urlparse(b).netloc.replace("www.", "")
-    return da == db
+from scraper.core.parser import normalize_url
+from scraper.core.validators import profile_url_allowed
 
 
 def collect_profile_links(current_url, soup, adapter):
@@ -28,15 +15,7 @@ def collect_profile_links(current_url, soup, adapter):
         if not full:
             continue
 
-        if not same_domain(adapter.base_url, full):
-            continue
-
-        lo = full.lower()
-
-        if any(x in lo for x in must_not_contain):
-            continue
-
-        if must_contain and not any(x in lo for x in must_contain):
+        if not profile_url_allowed(full, adapter.base_url, must_contain, must_not_contain):
             continue
 
         if full not in seen:

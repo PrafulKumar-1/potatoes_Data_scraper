@@ -1,13 +1,17 @@
 import re
 from typing import Iterable, List, Optional, Set, Tuple
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
 from scraper.constants import BLOCKED_EMAIL_PARTS, CONTACT_HINTS, INDIA_HINTS
 from scraper.core.parser import normalize_url, same_domain
+from scraper.core.utils import load_text_lines
+from scraper.settings import BLOCKED_DOMAINS_FILE
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 PHONE_RE = re.compile(r"(?:\+?\d{1,3}[\s-]?)?(?:\(?\d{2,5}\)?[\s-]?)?[\d\s-]{6,15}\d")
+BLOCKED_WEBSITE_DOMAINS = set(load_text_lines(BLOCKED_DOMAINS_FILE))
 
 def clean_email(email: str) -> Optional[str]:
     email = email.strip().strip(".,;:()[]{}<>")
@@ -88,6 +92,13 @@ def extract_external_website(page_url: str, soup: BeautifulSoup) -> str:
     for node in soup.select("a[href]"):
         href = node.get("href")
         full = normalize_url(page_url, href)
-        if full and not same_domain(page_url, full):
+        if not full or same_domain(page_url, full):
+            continue
+
+        hostname = urlparse(full).netloc.lower().replace("www.", "")
+        if any(hostname == domain or hostname.endswith(f".{domain}") for domain in BLOCKED_WEBSITE_DOMAINS):
+            continue
+
+        if full:
             return full
     return ""

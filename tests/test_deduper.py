@@ -7,3 +7,11 @@ def test_dedupe_keeps_best():
     out = dedupe([a, b])
     assert len(out) == 1
     assert out[0].phone == "+91 9999999999"
+
+
+def test_dedupe_normalizer_preserves_embedded_co_text():
+    a = Lead(company_name="Acorn Foods Co", company_email="sales@acorn.com", source_site="A", source_url="https://a.com")
+    b = Lead(company_name="Acorn Foods Company", company_email="sales@acorn.com", source_site="B", source_url="https://b.com", phone="+91 9999999999")
+    out = dedupe([a, b])
+    assert len(out) == 1
+    assert out[0].phone == "+91 9999999999"

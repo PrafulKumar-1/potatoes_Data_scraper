@@ -1,6 +1,13 @@
 from scraper.models.lead import Lead
+from scraper.core.utils import load_text_lines
+from scraper.settings import FREE_EMAIL_DOMAINS_FILE
 
-FREE_WEBMAIL_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com"}
+FREE_WEBMAIL_DOMAINS = set(load_text_lines(FREE_EMAIL_DOMAINS_FILE)) or {
+    "gmail.com",
+    "yahoo.com",
+    "hotmail.com",
+    "outlook.com",
+}
 
 def email_domain(email: str) -> str:
     return email.split("@", 1)[1].lower().strip() if "@" in email else ""
