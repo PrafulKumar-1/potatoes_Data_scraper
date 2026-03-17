@@ -6,6 +6,7 @@ from scraper.core.extractor import (
     extract_emails,
     extract_external_website,
     extract_mailto_emails,
+    extract_phones,
 )
 
 def test_extract_emails():
@@ -35,3 +36,26 @@ def test_extract_external_website_skips_blocked_domains():
         "html.parser",
     )
     assert extract_external_website("https://www.tradeindia.com/company/acme", soup) == "https://acmefoods.in"
+
+
+def test_extract_phones_ignores_dates_and_long_ids():
+    text = "GST Registration Date 27-03-2025 Product ID 2857729793573 Call +91 7943439804"
+    phones = extract_phones(text)
+    assert "+91 7943439804" in phones
+    assert "27-03-2025" not in phones
+    assert "2857729793573" not in phones
+
+
+def test_extract_external_website_ignores_same_site_subdomains_and_maps():
+    soup = BeautifulSoup(
+        """
+        <a href="https://my.indiamart.com/buyertools/postbl?modid=PRODDTL">Contact</a>
+        <a href="https://www.google.com/maps/dir//13.057665,77.573898">Get Directions</a>
+        <a class="website-link" href="https://www.neelakanthcargo.com/">Website</a>
+        """,
+        "html.parser",
+    )
+    assert extract_external_website(
+        "https://www.indiamart.com/proddetail/test-123.html",
+        soup,
+    ) == "https://www.neelakanthcargo.com/"

@@ -12,6 +12,9 @@ from scraper.settings import BLOCKED_DOMAINS_FILE
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 PHONE_RE = re.compile(r"(?:\+?\d{1,3}[\s-]?)?(?:\(?\d{2,5}\)?[\s-]?)?[\d\s-]{6,15}\d")
 BLOCKED_WEBSITE_DOMAINS = set(load_text_lines(BLOCKED_DOMAINS_FILE))
+STRUCTURED_PHONE_PATTERNS = [
+    re.compile(r'"(?:MOBILE_PNS|LANDLINE|pns|mobile)"\s*:\s*"([^"]+)"', re.IGNORECASE),
+]
 
 def clean_email(email: str) -> Optional[str]:
     email = email.strip().strip(".,;:()[]{}<>")
@@ -42,8 +45,19 @@ def extract_phones(text: str) -> Set[str]:
     for raw in PHONE_RE.findall(text or ""):
         phone = " ".join(raw.split())
         digits = re.sub(r"\D", "", phone)
-        if len(digits) >= 7:
-            found.add(phone)
+        if len(digits) < 7 or len(digits) > 12:
+            continue
+        if re.fullmatch(r"\d{1,2}[-/]\d{1,2}[-/]\d{2,4}", phone):
+            continue
+        found.add(phone)
+    return found
+
+
+def extract_structured_phones(html: str) -> Set[str]:
+    found: Set[str] = set()
+    for pattern in STRUCTURED_PHONE_PATTERNS:
+        for raw in pattern.findall(html or ""):
+            found |= extract_phones(raw)
     return found
 
 def guess_india(text: str) -> bool:
@@ -89,16 +103,25 @@ def contact_links(page_url: str, soup: BeautifulSoup) -> List[str]:
     return found[:5]
 
 def extract_external_website(page_url: str, soup: BeautifulSoup) -> str:
+    fallback = ""
     for node in soup.select("a[href]"):
         href = node.get("href")
         full = normalize_url(page_url, href)
         if not full or same_domain(page_url, full):
             continue
 
+        text = node.get_text(" ", strip=True).lower()
+        lower_full = full.lower()
         hostname = urlparse(full).netloc.lower().replace("www.", "")
         if any(hostname == domain or hostname.endswith(f".{domain}") for domain in BLOCKED_WEBSITE_DOMAINS):
             continue
 
-        if full:
+        if "google.com/maps" in lower_full or "get directions" in text or "direction" in text:
+            continue
+
+        if "website" in text or "website-link" in " ".join(node.get("class", [])):
             return full
-    return ""
+
+        if not fallback:
+            fallback = full
+    return fallback

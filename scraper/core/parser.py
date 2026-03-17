@@ -14,9 +14,9 @@ def normalize_url(base_url: str, href: Optional[str]) -> Optional[str]:
     return urljoin(base_url, href)
 
 def same_domain(a: str, b: str) -> bool:
-    da = urlparse(a).netloc.replace("www.", "")
-    db = urlparse(b).netloc.replace("www.", "")
-    return da == db
+    da = urlparse(a).netloc.lower().split(":", 1)[0].replace("www.", "")
+    db = urlparse(b).netloc.lower().split(":", 1)[0].replace("www.", "")
+    return da == db or da.endswith(f".{db}") or db.endswith(f".{da}")
 
 def text_content(soup: BeautifulSoup) -> str:
     return soup.get_text(" ", strip=True)

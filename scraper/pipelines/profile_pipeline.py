@@ -33,7 +33,10 @@ def scrape_profile(adapter, profile_url, fetcher, robots_policy) -> List[Lead]:
     phone = next(iter(sorted(phones)), "")
 
     leads = []
-    for email in sorted(emails):
+    candidate_emails = sorted(emails) or [""]
+    for email in candidate_emails:
+        if not email and not any([company, phone, website]):
+            continue
         leads.append(
             Lead(
                 company_name=company,

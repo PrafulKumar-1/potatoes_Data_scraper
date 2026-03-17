@@ -46,9 +46,37 @@ def load_adapters() -> List[SiteAdapter]:
     return [SiteAdapter(**item) for item in raw]
 
 
+def allowed_search_templates(adapter: SiteAdapter, robots_policy: RobotsPolicy) -> List[str]:
+    allowed = []
+    blocked = []
+    probe_query = "potato+buyer+india"
+
+    for template in adapter.search_urls:
+        probe_url = template.format(query=probe_query)
+        if robots_policy.can_fetch(adapter.base_url, probe_url):
+            allowed.append(template)
+        else:
+            blocked.append(probe_url)
+
+    if blocked:
+        logging.warning(
+            "[SKIP] %s robots disallow %s/%s search templates; sample: %s",
+            adapter.name,
+            len(blocked),
+            len(adapter.search_urls),
+            blocked[0],
+        )
+
+    return allowed
+
+
 def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, robots_policy: RobotsPolicy):
     if not adapter.enabled:
         logging.info("[SKIP] %s disabled", adapter.name)
+        return []
+
+    search_templates = allowed_search_templates(adapter, robots_policy)
+    if not search_templates:
         return []
 
     all_leads = []
@@ -57,12 +85,8 @@ def scrape_adapter(adapter: SiteAdapter, queries: List[str], fetcher: Fetcher, r
     for keyword in queries:
         encoded = quote_plus(keyword)
 
-        for template in adapter.search_urls:
+        for template in search_templates:
             search_url = template.format(query=encoded)
-
-            if not robots_policy.can_fetch(adapter.base_url, search_url):
-                logging.warning("[BLOCKED] %s robots disallow %s", adapter.name, search_url)
-                continue
 
             logging.info("[SEARCH] %s | %s", adapter.name, keyword)
             html = fetcher.fetch_html(search_url)
@@ -104,8 +128,7 @@ def main():
 
     all_leads = dedupe(all_leads)
 
-    # relaxed filter for debugging
-    all_leads = [lead for lead in all_leads if lead.company_email]
+    all_leads = [lead for lead in all_leads if lead.company_email or lead.phone or lead.website]
 
     export_leads(all_leads, CSV_OUTPUT, JSON_OUTPUT)
 

@@ -121,7 +121,7 @@
       "https://dir.indiamart.com/search.mp?ss={query}"
     ],
     "listing_link_selector": "a[href]",
-    "company_name_selector": "h1, h2, .bo center-heading, [class*='company']",
+    "company_name_selector": "h2, h1, .bo center-heading, [class*='company']",
     "enabled": true,
     "profile_url_must_contain": [
       "/impcat/",
