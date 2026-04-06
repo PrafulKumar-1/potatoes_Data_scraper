@@ -1164,3 +1164,29 @@
 2026-03-30 05:27:35,141 | INFO | Saved 0 leads
 2026-03-30 05:27:35,141 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
 2026-03-30 05:27:35,141 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
+2026-04-06 05:27:35,166 | WARNING | [SKIP] Europages robots disallow search template: https://www.europages.co.uk/companies/potato+buyer+india.html
+2026-04-06 05:27:35,166 | INFO | [ADAPTER DONE] Europages -> 0 leads
+2026-04-06 05:27:35,539 | WARNING | [SKIP] Kompass robots disallow search template: https://www.kompass.com/en/searchCompanies/?text=potato+buyer+india
+2026-04-06 05:27:35,539 | INFO | [ADAPTER DONE] Kompass -> 0 leads
+2026-04-06 05:27:35,719 | WARNING | [SKIP] TradeIndia robots disallow search template: https://www.tradeindia.com/search.html?keyword=potato+buyer+india
+2026-04-06 05:27:35,719 | INFO | [ADAPTER DONE] TradeIndia -> 0 leads
+2026-04-06 05:27:36,123 | WARNING | [SKIP] ExportersIndia robots disallow search template: https://www.exportersindia.com/search.php?keyword=potato+buyer+india
+2026-04-06 05:27:36,123 | INFO | [ADAPTER DONE] ExportersIndia -> 0 leads
+2026-04-06 05:27:36,603 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato.html)
+2026-04-06 05:27:36,738 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/frozen-potato.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/frozen-potato.html)
+2026-04-06 05:27:36,874 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-starch.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-starch.html)
+2026-04-06 05:27:37,009 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/seed-potatoes.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/seed-potatoes.html)
+2026-04-06 05:27:37,143 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/french-fries.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/french-fries.html)
+2026-04-06 05:27:37,278 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-powder.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-powder.html)
+2026-04-06 05:27:37,413 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-flake.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-flake.html)
+2026-04-06 05:27:37,548 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-granule.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-granule.html)
+2026-04-06 05:27:37,548 | INFO | [ADAPTER DONE] IndiaMART -> 0 leads
+2026-04-06 05:27:38,135 | WARNING | [SKIP] Justdial sample request failed for https://www.justdial.com/search?q=potato+buyer+india (403 Client Error: Forbidden for url: https://www.justdial.com/search?q=potato+buyer+india)
+2026-04-06 05:27:38,136 | INFO | [ADAPTER DONE] Justdial -> 0 leads
+2026-04-06 05:27:38,345 | WARNING | [SKIP] Yellow Pages India robots disallow search template: https://www.yellowpages.in/search/potato+buyer+india
+2026-04-06 05:27:38,345 | INFO | [ADAPTER DONE] Yellow Pages India -> 0 leads
+2026-04-06 05:27:38,845 | WARNING | [SKIP] Go4WorldBusiness sample request failed for https://www.go4worldbusiness.com/find?searchText=potato+buyer+india (status=202)
+2026-04-06 05:27:38,845 | INFO | [ADAPTER DONE] Go4WorldBusiness -> 0 leads
+2026-04-06 05:27:38,846 | INFO | Saved 0 leads
+2026-04-06 05:27:38,846 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
+2026-04-06 05:27:38,846 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
