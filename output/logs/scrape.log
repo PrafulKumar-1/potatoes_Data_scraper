@@ -1449,3 +1449,208 @@
 2026-04-27 05:57:18,447 | INFO | Saved 0 leads
 2026-04-27 05:57:18,447 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
 2026-04-27 05:57:18,447 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
+2026-05-04 06:15:43,815 | WARNING | [SKIP] Europages robots disallow search template: https://www.europages.co.uk/companies/potato+buyer+india.html
+2026-05-04 06:15:43,815 | INFO | [ADAPTER DONE] Europages -> 0 leads
+2026-05-04 06:15:44,226 | WARNING | [SKIP] Kompass robots disallow search template: https://www.kompass.com/en/searchCompanies/?text=potato+buyer+india
+2026-05-04 06:15:44,226 | INFO | [ADAPTER DONE] Kompass -> 0 leads
+2026-05-04 06:15:44,664 | WARNING | [SKIP] TradeIndia robots disallow search template: https://www.tradeindia.com/search.html?keyword=potato+buyer+india
+2026-05-04 06:15:44,664 | INFO | [ADAPTER DONE] TradeIndia -> 0 leads
+2026-05-04 06:15:45,038 | WARNING | [SKIP] ExportersIndia robots disallow search template: https://www.exportersindia.com/search.php?keyword=potato+buyer+india
+2026-05-04 06:15:45,039 | INFO | [ADAPTER DONE] ExportersIndia -> 0 leads
+2026-05-04 06:15:46,115 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:15:49,013 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-vegetable-2852166865533.html -> 1 leads
+2026-05-04 06:15:54,030 | INFO | [FOUND] https://www.indiamart.com/proddetail/santana-fresh-potato-2850014190862.html -> 1 leads
+2026-05-04 06:15:56,479 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2857605179812.html -> 1 leads
+2026-05-04 06:16:04,459 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-farm-fresh-2859012207733.html -> 1 leads
+2026-05-04 06:16:07,312 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-26743128673.html -> 1 leads
+2026-05-04 06:16:10,432 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-potato-2853452556091.html -> 1 leads
+2026-05-04 06:16:15,153 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-8760146848.html -> 1 leads
+2026-05-04 06:16:18,109 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-table-potato-2853593372730.html -> 1 leads
+2026-05-04 06:16:21,242 | INFO | [FOUND] https://www.indiamart.com/proddetail/chandramukhi-potatoes-2852677315055.html -> 1 leads
+2026-05-04 06:16:25,667 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-vegetable-2852989540373.html -> 1 leads
+2026-05-04 06:16:27,809 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-3797-23166071633.html -> 1 leads
+2026-05-04 06:16:29,868 | INFO | [FOUND] https://www.indiamart.com/proddetail/white-fresh-kufri-jyoti-potato-2859134259233.html -> 1 leads
+2026-05-04 06:16:32,091 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-domestic-grade-2856638133555.html -> 1 leads
+2026-05-04 06:16:35,079 | INFO | [FOUND] https://www.indiamart.com/proddetail/fry-sona-potato-2854979346197.html -> 1 leads
+2026-05-04 06:16:36,808 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2858055156362.html -> 1 leads
+2026-05-04 06:16:38,769 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-brown-4793509562.html -> 1 leads
+2026-05-04 06:16:43,165 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potatoes-2987640330.html -> 1 leads
+2026-05-04 06:16:45,315 | INFO | [FOUND] https://www.indiamart.com/proddetail/brown-fresh-potato-25224293448.html -> 1 leads
+2026-05-04 06:16:54,856 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-holland-potato-23866520688.html -> 1 leads
+2026-05-04 06:17:02,808 | INFO | [FOUND] https://www.indiamart.com/proddetail/natural-fresh-potato-20853269330.html -> 1 leads
+2026-05-04 06:17:05,799 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-2850406885148.html -> 1 leads
+2026-05-04 06:17:11,707 | INFO | [FOUND] https://www.indiamart.com/proddetail/santana-potato-2850312461212.html -> 1 leads
+2026-05-04 06:17:19,076 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-potato-2854584873173.html -> 1 leads
+2026-05-04 06:17:21,721 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-chips-potato-2856631680297.html -> 1 leads
+2026-05-04 06:17:24,099 | INFO | [FOUND] https://www.indiamart.com/proddetail/garden-fresh-potatoes-20040124448.html -> 1 leads
+2026-05-04 06:17:24,099 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:17:30,028 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-frozen-potato-smiley-2857150644588.html -> 1 leads
+2026-05-04 06:17:31,769 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-frozen-potato-2856346935212.html -> 1 leads
+2026-05-04 06:17:33,530 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozon-potato-bets-2853153882548.html -> 1 leads
+2026-05-04 06:17:36,572 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-chilli-potato-2855853256830.html -> 1 leads
+2026-05-04 06:17:38,710 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-organic-baby-potatoes-26074394091.html -> 1 leads
+2026-05-04 06:17:40,464 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-cubes-2856804774930.html -> 1 leads
+2026-05-04 06:17:42,555 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-master-chef-potato-kiev-snacks-2857960225033.html -> 1 leads
+2026-05-04 06:17:47,252 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-kieves-1kg-2856874971330.html -> 1 leads
+2026-05-04 06:17:50,205 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-crispy-happy-potato-25220154230.html -> 1 leads
+2026-05-04 06:17:52,856 | INFO | [FOUND] https://www.indiamart.com/proddetail/iqf-potato-cubes-10496953455.html -> 1 leads
+2026-05-04 06:17:54,614 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-iqf-potato-9954709755.html -> 1 leads
+2026-05-04 06:17:56,828 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-cp-frozen-potato-kievs-2857203235962.html -> 1 leads
+2026-05-04 06:17:59,695 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-vegetables-24525702955.html -> 1 leads
+2026-05-04 06:18:02,615 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-experts-chilli-garlic-potato-shots-2850797958973.html -> 1 leads
+2026-05-04 06:18:12,978 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-potato-kiev-1kg-2858725097712.html -> 1 leads
+2026-05-04 06:18:26,171 | INFO | [FOUND] https://www.indiamart.com/company/263911704/ -> 1 leads
+2026-05-04 06:18:28,548 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-master-chef-potato-kiev-2857199036891.html -> 1 leads
+2026-05-04 06:18:31,207 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-dice-8843373612.html -> 1 leads
+2026-05-04 06:18:33,580 | INFO | [FOUND] https://www.indiamart.com/proddetail/smiles-22553623355.html -> 1 leads
+2026-05-04 06:18:38,186 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-diced-potato-20712002255.html -> 1 leads
+2026-05-04 06:18:51,417 | INFO | [FOUND] https://www.indiamart.com/company/140631694/ -> 1 leads
+2026-05-04 06:18:51,417 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:18:54,083 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-20842896091.html -> 1 leads
+2026-05-04 06:18:56,725 | INFO | [FOUND] https://www.indiamart.com/proddetail/modified-clean-label-waxy-potato-starch-2856787095891.html -> 1 leads
+2026-05-04 06:18:59,408 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-9628781112.html -> 1 leads
+2026-05-04 06:19:01,795 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-12389745291.html -> 1 leads
+2026-05-04 06:19:03,736 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-15399783430.html -> 1 leads
+2026-05-04 06:19:05,556 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-2859097037697.html -> 1 leads
+2026-05-04 06:19:08,685 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-ip-bp-ep-usp-2859081699691.html -> 1 leads
+2026-05-04 06:19:17,271 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-gluten-free-potato-starch-wholesale-supplier-2857200603355.html -> 1 leads
+2026-05-04 06:19:19,820 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-9005-25-8-2858832492562.html -> 1 leads
+2026-05-04 06:19:24,726 | INFO | [FOUND] https://www.indiamart.com/proddetail/starch-potato-potato-starch-1-kg-2853891028691.html -> 1 leads
+2026-05-04 06:19:27,053 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2856638339912.html -> 1 leads
+2026-05-04 06:19:30,156 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-7703758248.html -> 1 leads
+2026-05-04 06:19:32,959 | INFO | [FOUND] https://www.indiamart.com/proddetail/native-potato-starch-imported-12685925097.html -> 1 leads
+2026-05-04 06:19:35,719 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2853416654312.html -> 1 leads
+2026-05-04 06:19:37,408 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2857549194230.html -> 1 leads
+2026-05-04 06:19:42,858 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-21623299991.html -> 1 leads
+2026-05-04 06:19:46,716 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-food-grade-20636580562.html -> 1 leads
+2026-05-04 06:19:49,378 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2858875890730.html -> 1 leads
+2026-05-04 06:19:53,486 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-500-grams-food-grade-2851789729155.html -> 1 leads
+2026-05-04 06:19:56,564 | INFO | [FOUND] https://www.indiamart.com/proddetail/native-potato-starch-2859037689088.html -> 1 leads
+2026-05-04 06:19:58,531 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-20291371930.html -> 1 leads
+2026-05-04 06:20:00,551 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-21816332612.html -> 1 leads
+2026-05-04 06:20:02,842 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-native-2853135913773.html -> 1 leads
+2026-05-04 06:20:05,999 | INFO | [FOUND] https://www.indiamart.com/proddetail/native-potato-starch-23975939897.html -> 1 leads
+2026-05-04 06:20:08,433 | INFO | [FOUND] https://www.indiamart.com/proddetail/white-potato-starch-3784278312.html -> 1 leads
+2026-05-04 06:20:08,433 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:20:15,633 | INFO | [FOUND] https://www.indiamart.com/proddetail/manufacturer-worldwide-exporter-wholesaler-of-potato-seeds-2852700086162.html -> 1 leads
+2026-05-04 06:20:17,881 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-seeds-2852615719173.html -> 1 leads
+2026-05-04 06:20:20,077 | INFO | [FOUND] https://www.indiamart.com/proddetail/l-r-goli-seed-size-seed-potato-seed-26857043555.html -> 1 leads
+2026-05-04 06:20:28,735 | INFO | [FOUND] https://www.indiamart.com/proddetail/red-potato-seeds-2855088981888.html -> 1 leads
+2026-05-04 06:20:31,011 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-potato-seed-2850957579412.html -> 1 leads
+2026-05-04 06:20:36,224 | INFO | [FOUND] https://www.indiamart.com/proddetail/cpri-kufri-bahar-3797-f1-seeds-potato-2853471568797.html -> 1 leads
+2026-05-04 06:20:40,715 | INFO | [FOUND] https://www.indiamart.com/proddetail/sukh-potato-seeds-2855366115191.html -> 1 leads
+2026-05-04 06:20:47,650 | INFO | [FOUND] https://www.indiamart.com/proddetail/red-potato-seeds-2855082368248.html -> 1 leads
+2026-05-04 06:20:49,801 | INFO | [FOUND] https://www.indiamart.com/proddetail/l-r-potato-seed-2855328468597.html -> 1 leads
+2026-05-04 06:20:58,061 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-seed-potato-2850831555462.html -> 1 leads
+2026-05-04 06:21:03,337 | INFO | [FOUND] https://www.indiamart.com/proddetail/10tonn-potato-seed-26311929473.html -> 1 leads
+2026-05-04 06:21:05,138 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-seed-potatoes-2855041337773.html -> 1 leads
+2026-05-04 06:21:12,809 | INFO | [FOUND] https://www.indiamart.com/proddetail/hybrid-potato-seeds-4611182448.html -> 1 leads
+2026-05-04 06:21:15,926 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-k-pukraj-seeds-19835338155.html -> 1 leads
+2026-05-04 06:21:18,437 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-jyoti-potato-seed-2851255623633.html -> 1 leads
+2026-05-04 06:21:21,184 | INFO | [FOUND] https://www.indiamart.com/proddetail/khairati-aloo-beej-khairati-potato-seed-2857624633333.html -> 1 leads
+2026-05-04 06:21:23,028 | INFO | [FOUND] https://www.indiamart.com/proddetail/red-sweet-potato-seed-2852305517955.html -> 1 leads
+2026-05-04 06:21:32,720 | INFO | [FOUND] https://www.indiamart.com/proddetail/pukhraj-potato-seed-22609638173.html -> 1 leads
+2026-05-04 06:21:35,785 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-fryom-potato-seed-2853246241073.html -> 1 leads
+2026-05-04 06:21:38,730 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-vegetable-seed-18490964297.html -> 1 leads
+2026-05-04 06:21:41,085 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-pukhraj-seed-potatoes-2856279135133.html -> 1 leads
+2026-05-04 06:21:49,128 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-frysona-seed-2855099426462.html -> 1 leads
+2026-05-04 06:21:53,420 | INFO | [FOUND] https://www.indiamart.com/proddetail/seed-potatoes-2853300605791.html -> 1 leads
+2026-05-04 06:21:58,406 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-chipsona-3-potato-seed-25789159048.html -> 1 leads
+2026-05-04 06:22:00,844 | INFO | [FOUND] https://www.indiamart.com/proddetail/colomba-potato-seeds-mahindra-hzpc-26819033488.html -> 1 leads
+2026-05-04 06:22:00,844 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:22:04,025 | INFO | [FOUND] https://www.indiamart.com/proddetail/shoestring-french-fries-2856236277088.html -> 1 leads
+2026-05-04 06:22:08,952 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-8mm-x-8mm-coated-french-fries-2857160793312.html -> 1 leads
+2026-05-04 06:22:12,118 | INFO | [FOUND] https://www.indiamart.com/proddetail/hyfun-food-french-fries-2857790004891.html -> 1 leads
+2026-05-04 06:22:13,837 | INFO | [FOUND] https://www.indiamart.com/proddetail/9-mm-frozen-french-fries-2853195127833.html -> 1 leads
+2026-05-04 06:22:16,763 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-bulk-shipment-exports-orders-quantity-only-2854264418373.html -> 1 leads
+2026-05-04 06:22:18,788 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-mccain9mm-2-5kg-2850623738633.html -> 1 leads
+2026-05-04 06:22:21,507 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-9mm-2850490398773.html -> 1 leads
+2026-05-04 06:22:23,948 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2859143785930.html -> 1 leads
+2026-05-04 06:22:25,651 | INFO | [FOUND] https://www.indiamart.com/proddetail/just-crave-frozen-french-fries-2858201303491.html -> 1 leads
+2026-05-04 06:22:28,218 | INFO | [FOUND] https://www.indiamart.com/proddetail/2-5kg-hungritos-french-fries-2858746703291.html -> 1 leads
+2026-05-04 06:22:31,131 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fry-10137273233.html -> 1 leads
+2026-05-04 06:22:33,737 | INFO | [FOUND] https://www.indiamart.com/proddetail/masala-fries-12193980155.html -> 1 leads
+2026-05-04 06:22:36,749 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-22506626488.html -> 1 leads
+2026-05-04 06:22:38,834 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-manufacturer-2856818751412.html -> 1 leads
+2026-05-04 06:22:41,267 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2851740995073.html -> 1 leads
+2026-05-04 06:22:43,684 | INFO | [FOUND] https://www.indiamart.com/proddetail/chill-fill-french-fries-2858222779697.html -> 1 leads
+2026-05-04 06:22:46,278 | INFO | [FOUND] https://www.indiamart.com/proddetail/crispy-french-fries-itc-6mm-9mm-2855849718133.html -> 1 leads
+2026-05-04 06:22:48,106 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-crinkle-2855317305462.html -> 1 leads
+2026-05-04 06:22:50,174 | INFO | [FOUND] https://www.indiamart.com/proddetail/6mm-shoestring-frozen-french-fries-2856606475662.html -> 1 leads
+2026-05-04 06:22:56,555 | INFO | [FOUND] https://www.indiamart.com/proddetail/funwave-straight-cut-9mm-french-fries-2853531327397.html -> 1 leads
+2026-05-04 06:22:58,391 | INFO | [FOUND] https://www.indiamart.com/proddetail/chilli-potato-fries-2855853206633.html -> 1 leads
+2026-05-04 06:23:01,570 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-21565322655.html -> 1 leads
+2026-05-04 06:23:03,609 | INFO | [FOUND] https://www.indiamart.com/proddetail/hungritos-premium-french-fries-2856535050955.html -> 1 leads
+2026-05-04 06:23:05,850 | INFO | [FOUND] https://www.indiamart.com/proddetail/iscon-balaji-french-fries-26341915430.html -> 1 leads
+2026-05-04 06:23:08,570 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-french-fries-2855415574148.html -> 1 leads
+2026-05-04 06:23:08,570 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:23:11,355 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-flour-powder-6504449048.html -> 1 leads
+2026-05-04 06:23:14,370 | INFO | [FOUND] https://www.indiamart.com/proddetail/natural-potato-powder-2850593391488.html -> 1 leads
+2026-05-04 06:23:17,274 | INFO | [FOUND] https://www.indiamart.com/proddetail/purple-sweet-potato-powder-22219627030.html -> 1 leads
+2026-05-04 06:23:20,951 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-powder-2852757853162.html -> 1 leads
+2026-05-04 06:23:23,522 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-powder-7596655412.html -> 1 leads
+2026-05-04 06:23:25,650 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-26191578973.html -> 1 leads
+2026-05-04 06:23:27,640 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-sweet-potato-powder-2858958653373.html -> 1 leads
+2026-05-04 06:23:29,857 | INFO | [FOUND] https://www.indiamart.com/proddetail/spray-dried-potato-powder-24651951197.html -> 1 leads
+2026-05-04 06:23:32,067 | INFO | [FOUND] https://www.indiamart.com/proddetail/herbojit-dehydrated-potato-powder-2855359675797.html -> 1 leads
+2026-05-04 06:23:35,038 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-potato-powder-2858195039012.html -> 1 leads
+2026-05-04 06:23:37,465 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2854519810491.html -> 1 leads
+2026-05-04 06:23:40,172 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2849543774773.html -> 1 leads
+2026-05-04 06:23:44,671 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-powder-2855646600533.html -> 1 leads
+2026-05-04 06:23:47,535 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2856314272830.html -> 1 leads
+2026-05-04 06:23:49,604 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-flakes-powder-2856397706330.html -> 1 leads
+2026-05-04 06:23:52,217 | INFO | [FOUND] https://www.indiamart.com/proddetail/mashed-potato-powder-9849942491.html -> 1 leads
+2026-05-04 06:23:55,236 | INFO | [FOUND] https://www.indiamart.com/proddetail/boiled-potato-powder-2854033823948.html -> 1 leads
+2026-05-04 06:24:05,326 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-powder-23859096188.html -> 1 leads
+2026-05-04 06:24:07,366 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-23445521930.html -> 1 leads
+2026-05-04 06:24:10,326 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2642205448.html -> 1 leads
+2026-05-04 06:24:13,218 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-7740552562.html -> 1 leads
+2026-05-04 06:24:16,147 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-12129481391.html -> 1 leads
+2026-05-04 06:24:18,729 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-fiber-powder-2852106294873.html -> 1 leads
+2026-05-04 06:24:24,255 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2856823655462.html -> 1 leads
+2026-05-04 06:24:26,130 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-21203655088.html -> 1 leads
+2026-05-04 06:24:26,130 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:24:33,147 | INFO | [FOUND] https://www.indiamart.com/proddetail/export-quality-potato-flakes-wholesale-supplier-2857200597655.html -> 1 leads
+2026-05-04 06:24:34,911 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-25854844491.html -> 1 leads
+2026-05-04 06:24:37,808 | INFO | [FOUND] https://www.indiamart.com/proddetail/mashed-potato-flakes-25958504248.html -> 1 leads
+2026-05-04 06:24:40,956 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-powder-labh-group-2859027689748.html -> 1 leads
+2026-05-04 06:24:42,809 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-khies-23303738048.html -> 1 leads
+2026-05-04 06:24:44,842 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-2854860156497.html -> 1 leads
+2026-05-04 06:24:47,417 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21549939862.html -> 1 leads
+2026-05-04 06:24:49,826 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flake-16017214397.html -> 1 leads
+2026-05-04 06:24:52,703 | INFO | [FOUND] https://www.indiamart.com/proddetail/milled-potato-flakes-powder-2858236991291.html -> 1 leads
+2026-05-04 06:24:55,805 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-22514129788.html -> 1 leads
+2026-05-04 06:24:58,355 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-25869688373.html -> 1 leads
+2026-05-04 06:25:00,263 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-11494487748.html -> 1 leads
+2026-05-04 06:25:03,241 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-20388474288.html -> 1 leads
+2026-05-04 06:25:11,031 | INFO | [FOUND] https://www.indiamart.com/proddetail/top-grade-dehydrated-milled-potato-flakes-reliable-supplier-for-global-exports-2854395952191.html -> 1 leads
+2026-05-04 06:25:14,137 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2857279903812.html -> 1 leads
+2026-05-04 06:25:19,266 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21810217088.html -> 1 leads
+2026-05-04 06:25:22,276 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-flakes-powder-16233416362.html -> 1 leads
+2026-05-04 06:25:24,857 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-22593793530.html -> 1 leads
+2026-05-04 06:25:26,922 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-cubes-25897299133.html -> 1 leads
+2026-05-04 06:25:29,547 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21732883262.html -> 1 leads
+2026-05-04 06:25:34,558 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-milled-2855330311555.html -> 1 leads
+2026-05-04 06:25:39,410 | INFO | [FOUND] https://www.indiamart.com/proddetail/madan-murari-dehydrated-potato-flakes-2852983772533.html -> 1 leads
+2026-05-04 06:25:41,910 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21271251173.html -> 1 leads
+2026-05-04 06:25:44,291 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flake-2849224114488.html -> 1 leads
+2026-05-04 06:25:46,631 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-2856433626588.html -> 1 leads
+2026-05-04 06:25:46,631 | INFO | [SEARCH] IndiaMART | [static]
+2026-05-04 06:25:49,233 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-2858834019491.html -> 1 leads
+2026-05-04 06:25:51,801 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-5363558830.html -> 1 leads
+2026-05-04 06:25:54,547 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granules-9398333288.html -> 1 leads
+2026-05-04 06:25:57,572 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granules-4229261212.html -> 1 leads
+2026-05-04 06:26:09,308 | INFO | [FOUND] https://www.indiamart.com/company/137181659/ -> 1 leads
+2026-05-04 06:26:20,723 | INFO | [FOUND] https://www.indiamart.com/company/145637894/ -> 1 leads
+2026-05-04 06:26:23,535 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-2852625791588.html -> 1 leads
+2026-05-04 06:26:26,589 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granule-2856003464130.html -> 1 leads
+2026-05-04 06:26:26,590 | INFO | [ADAPTER DONE] IndiaMART -> 154 leads
+2026-05-04 06:26:26,945 | WARNING | [SKIP] Justdial sample request failed for https://www.justdial.com/search?q=potato+buyer+india (403 Client Error: Forbidden for url: https://www.justdial.com/search?q=potato+buyer+india)
+2026-05-04 06:26:26,945 | INFO | [ADAPTER DONE] Justdial -> 0 leads
+2026-05-04 06:26:27,181 | WARNING | [SKIP] Yellow Pages India robots disallow search template: https://www.yellowpages.in/search/potato+buyer+india
+2026-05-04 06:26:27,181 | INFO | [ADAPTER DONE] Yellow Pages India -> 0 leads
+2026-05-04 06:26:27,495 | WARNING | [SKIP] Go4WorldBusiness sample request failed for https://www.go4worldbusiness.com/find?searchText=potato+buyer+india (status=202)
+2026-05-04 06:26:27,495 | INFO | [ADAPTER DONE] Go4WorldBusiness -> 0 leads
+2026-05-04 06:26:27,502 | INFO | Saved 154 leads
+2026-05-04 06:26:27,502 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
+2026-05-04 06:26:27,502 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
