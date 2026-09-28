@@ -88,13 +88,13 @@
     "buyer_signal": "buyer/importer; distributor/wholesaler"
   },
   {
-    "company_name": "India’s Leading B2B Marketplace for Manufacturers & Suppliers",
+    "company_name": "India's Largest Online B2B Marketplace",
     "company_email": "",
     "source_site": "ExportersIndia",
     "source_url": "https://www.exportersindia.com/",
     "contact_page": "https://www.exportersindia.com/register-business-online?joinfree=header",
-    "phone": "1997-2026",
-    "website": "https://www.matrimonialsindia.com",
+    "phone": "1000-1500",
+    "website": "https://www.placementindia.com/job-recruiters/job-posting.php?utm_source=exportersindia&utm_medium=banner&utm_campaign=pi_homepage_banner",
     "country_guess": "India",
     "buyer_signal": "buyer/importer; distributor/wholesaler"
   },
@@ -173,7 +173,7 @@
     "phone": "1997-2026",
     "website": "http://jobs.weblink.in/",
     "country_guess": "India",
-    "buyer_signal": "buyer/importer; distributor/wholesaler"
+    "buyer_signal": "buyer/importer; distributor/wholesaler; potato-processor"
   },
   {
     "company_name": "Real Estate, Building, Construction Material & Services",
