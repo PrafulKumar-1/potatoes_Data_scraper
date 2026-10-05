@@ -1,5 +1,16 @@
 [
   {
+    "company_name": "Advertise with Us",
+    "company_email": "feedback@exportersindia.com",
+    "source_site": "ExportersIndia",
+    "source_url": "https://www.exportersindia.com/advertise/",
+    "contact_page": "https://www.exportersindia.com/register-business-online?joinfree=header",
+    "phone": "1997-2026",
+    "website": "http://jobs.weblink.in/",
+    "country_guess": "India",
+    "buyer_signal": "buyer/importer; distributor/wholesaler"
+  },
+  {
     "company_name": "Let Us know What you Need",
     "company_email": "",
     "source_site": "ExportersIndia",
@@ -52,7 +63,7 @@
     "phone": "1997-2026",
     "website": "http://jobs.weblink.in/",
     "country_guess": "India",
-    "buyer_signal": "buyer/importer; distributor/wholesaler"
+    "buyer_signal": "buyer/importer; distributor/wholesaler; potato-processor"
   },
   {
     "company_name": "Submit Feedback, Suggestions & Report Issues",
@@ -77,23 +88,12 @@
     "buyer_signal": "buyer/importer; distributor/wholesaler"
   },
   {
-    "company_name": "Advertise with Us",
-    "company_email": "",
-    "source_site": "ExportersIndia",
-    "source_url": "https://www.exportersindia.com/advertise/",
-    "contact_page": "https://www.exportersindia.com/register-business-online",
-    "phone": "1997-2026",
-    "website": "http://www.enable-javascript.com/",
-    "country_guess": "India",
-    "buyer_signal": "buyer/importer; distributor/wholesaler"
-  },
-  {
     "company_name": "India's Largest Online B2B Marketplace",
     "company_email": "",
     "source_site": "ExportersIndia",
     "source_url": "https://www.exportersindia.com/",
     "contact_page": "https://www.exportersindia.com/register-business-online?joinfree=header",
-    "phone": "1000-1500",
+    "phone": "1997-2026",
     "website": "https://www.placementindia.com/job-recruiters/job-posting.php?utm_source=exportersindia&utm_medium=banner&utm_campaign=pi_homepage_banner",
     "country_guess": "India",
     "buyer_signal": "buyer/importer; distributor/wholesaler"
@@ -151,7 +151,7 @@
     "phone": "1997-2026",
     "website": "http://jobs.weblink.in/",
     "country_guess": "India",
-    "buyer_signal": "buyer/importer; distributor/wholesaler"
+    "buyer_signal": "buyer/importer; distributor/wholesaler; potato-processor"
   },
   {
     "company_name": "Chemical & Chemical Products",
@@ -170,10 +170,10 @@
     "source_site": "ExportersIndia",
     "source_url": "https://www.exportersindia.com/industry/computers-internet.htm",
     "contact_page": "https://www.exportersindia.com/register-business-online?joinfree=header",
-    "phone": "1997-2026",
+    "phone": "001-30-0001",
     "website": "http://jobs.weblink.in/",
     "country_guess": "India",
-    "buyer_signal": "buyer/importer; distributor/wholesaler; potato-processor"
+    "buyer_signal": "buyer/importer; distributor/wholesaler"
   },
   {
     "company_name": "Real Estate, Building, Construction Material & Services",
