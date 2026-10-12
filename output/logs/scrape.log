@@ -3036,3 +3036,357 @@
 2026-10-05 10:16:04,563 | INFO | Saved 27 leads
 2026-10-05 10:16:04,563 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
 2026-10-05 10:16:04,563 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
+2026-10-12 10:23:59,860 | WARNING | [SKIP] Europages robots disallow search template: https://www.europages.co.uk/companies/potato+buyer+india.html
+2026-10-12 10:23:59,860 | INFO | [ADAPTER DONE] Europages -> 0 leads
+2026-10-12 10:24:00,391 | WARNING | [SKIP] Kompass robots disallow search template: https://www.kompass.com/en/searchCompanies/?text=potato+buyer+india
+2026-10-12 10:24:00,391 | INFO | [ADAPTER DONE] Kompass -> 0 leads
+2026-10-12 10:24:00,811 | WARNING | [SKIP] TradeIndia robots disallow search template: https://www.tradeindia.com/search.html?keyword=potato+buyer+india
+2026-10-12 10:24:00,811 | INFO | [ADAPTER DONE] TradeIndia -> 0 leads
+2026-10-12 10:24:01,947 | INFO | [SEARCH] ExportersIndia | potato buyer india
+2026-10-12 10:24:06,578 | INFO | [FOUND] https://www.exportersindia.com/post-buy-requirement.php -> 1 leads
+2026-10-12 10:24:20,049 | INFO | [FOUND] https://www.exportersindia.com/industry/ -> 1 leads
+2026-10-12 10:24:32,712 | INFO | [FOUND] https://www.exportersindia.com/indian-manufacturers/ -> 1 leads
+2026-10-12 10:24:46,340 | INFO | [FOUND] https://www.exportersindia.com/b2b-marketplace.htm -> 1 leads
+2026-10-12 10:24:59,896 | INFO | [FOUND] https://www.exportersindia.com/buyers/ -> 1 leads
+2026-10-12 10:25:14,724 | INFO | [FOUND] https://www.exportersindia.com/feedback.htm -> 1 leads
+2026-10-12 10:25:30,066 | INFO | [FOUND] https://www.exportersindia.com/complaint.htm -> 1 leads
+2026-10-12 10:25:43,651 | INFO | [FOUND] https://www.exportersindia.com/advertise/ -> 1 leads
+2026-10-12 10:25:59,110 | INFO | [FOUND] https://www.exportersindia.com/ -> 1 leads
+2026-10-12 10:26:14,064 | INFO | [FOUND] https://www.exportersindia.com/industry/agriculture.htm -> 1 leads
+2026-10-12 10:26:30,050 | INFO | [FOUND] https://www.exportersindia.com/industry/fashion-apparel.htm -> 1 leads
+2026-10-12 10:26:45,388 | INFO | [FOUND] https://www.exportersindia.com/industry/automobile.htm -> 1 leads
+2026-10-12 10:27:01,897 | INFO | [FOUND] https://www.exportersindia.com/industry/ayurvedic-herbal.htm -> 1 leads
+2026-10-12 10:27:15,797 | INFO | [FOUND] https://www.exportersindia.com/indian-services/ -> 1 leads
+2026-10-12 10:27:29,116 | INFO | [FOUND] https://www.exportersindia.com/industry/chemicals.htm -> 1 leads
+2026-10-12 10:27:41,337 | INFO | [FOUND] https://www.exportersindia.com/industry/computers-internet.htm -> 1 leads
+2026-10-12 10:27:57,599 | INFO | [FOUND] https://www.exportersindia.com/industry/realestate-construction.htm -> 1 leads
+2026-10-12 10:28:12,303 | INFO | [FOUND] https://www.exportersindia.com/industry/consumer-electronics.htm -> 1 leads
+2026-10-12 10:28:25,986 | INFO | [FOUND] https://www.exportersindia.com/industry/electronics-electrical.htm -> 1 leads
+2026-10-12 10:28:39,987 | INFO | [FOUND] https://www.exportersindia.com/indian-services/financial.htm -> 1 leads
+2026-10-12 10:28:54,827 | INFO | [FOUND] https://www.exportersindia.com/industry/furniture.htm -> 1 leads
+2026-10-12 10:29:07,384 | INFO | [FOUND] https://www.exportersindia.com/industry/food-beverages.htm -> 1 leads
+2026-10-12 10:29:20,742 | INFO | [FOUND] https://www.exportersindia.com/industry/gifts-crafts.htm -> 1 leads
+2026-10-12 10:29:34,025 | INFO | [FOUND] https://www.exportersindia.com/industry/health-beauty.htm -> 1 leads
+2026-10-12 10:29:49,043 | INFO | [FOUND] https://www.exportersindia.com/industry/home-supplies.htm -> 1 leads
+2026-10-12 10:29:49,043 | INFO | [SEARCH] ExportersIndia | potato importer india
+2026-10-12 10:29:49,561 | INFO | [SEARCH] ExportersIndia | potato distributor india
+2026-10-12 10:29:50,070 | INFO | [SEARCH] ExportersIndia | potato wholesaler india
+2026-10-12 10:29:50,672 | INFO | [SEARCH] ExportersIndia | fresh potato buyer india
+2026-10-12 10:29:51,199 | INFO | [SEARCH] ExportersIndia | processing potato buyer india
+2026-10-12 10:29:51,699 | INFO | [SEARCH] ExportersIndia | frozen potato buyer india
+2026-10-12 10:29:52,299 | INFO | [SEARCH] ExportersIndia | table potato buyer india
+2026-10-12 10:29:53,002 | INFO | [SEARCH] ExportersIndia | seed potato buyer india
+2026-10-12 10:29:53,562 | INFO | [SEARCH] ExportersIndia | potato chips manufacturer india
+2026-10-12 10:29:54,096 | INFO | [SEARCH] ExportersIndia | french fries manufacturer india
+2026-10-12 10:29:54,611 | INFO | [SEARCH] ExportersIndia | potato starch buyer india
+2026-10-12 10:29:55,126 | INFO | [SEARCH] ExportersIndia | dehydrated potato buyer india
+2026-10-12 10:29:55,773 | INFO | [SEARCH] ExportersIndia | potato flakes buyer india
+2026-10-12 10:29:56,350 | INFO | [SEARCH] ExportersIndia | potato granules buyer india
+2026-10-12 10:29:56,909 | INFO | [SEARCH] ExportersIndia | potato powder buyer india
+2026-10-12 10:29:57,507 | INFO | [SEARCH] ExportersIndia | potato processing company india
+2026-10-12 10:29:58,069 | INFO | [SEARCH] ExportersIndia | snack manufacturer potato india
+2026-10-12 10:29:58,594 | INFO | [SEARCH] ExportersIndia | frozen foods company potato india
+2026-10-12 10:29:59,113 | INFO | [SEARCH] ExportersIndia | food distributor potatoes india
+2026-10-12 10:29:59,646 | INFO | [SEARCH] ExportersIndia | agro importer potatoes india
+2026-10-12 10:30:00,158 | INFO | [SEARCH] ExportersIndia | retail chain potato procurement india
+2026-10-12 10:30:00,661 | INFO | [SEARCH] ExportersIndia | hotel supply potato buyer india
+2026-10-12 10:30:01,206 | INFO | [SEARCH] ExportersIndia | canteen supplier potato india
+2026-10-12 10:30:01,767 | INFO | [SEARCH] ExportersIndia | institutional potato buyer india
+2026-10-12 10:30:02,335 | INFO | [SEARCH] ExportersIndia | bulk potato purchase india
+2026-10-12 10:30:02,904 | INFO | [SEARCH] ExportersIndia | potato procurement company india
+2026-10-12 10:30:04,115 | INFO | [SEARCH] ExportersIndia | potato trading company india
+2026-10-12 10:30:05,169 | INFO | [SEARCH] ExportersIndia | aloo buyer india
+2026-10-12 10:30:06,192 | INFO | [SEARCH] ExportersIndia | aloo wholesaler india
+2026-10-12 10:30:07,242 | INFO | [SEARCH] ExportersIndia | potato supplier for chips india
+2026-10-12 10:30:08,252 | INFO | [SEARCH] ExportersIndia | potato supplier for fries india
+2026-10-12 10:30:09,402 | INFO | [SEARCH] ExportersIndia | potato starch manufacturer india
+2026-10-12 10:30:10,496 | INFO | [SEARCH] ExportersIndia | potato flakes importer india
+2026-10-12 10:30:11,503 | INFO | [SEARCH] ExportersIndia | potato flakes distributor india
+2026-10-12 10:30:12,598 | INFO | [SEARCH] ExportersIndia | potato granules importer india
+2026-10-12 10:30:13,956 | INFO | [SEARCH] ExportersIndia | potato products buyer india
+2026-10-12 10:30:15,127 | INFO | [SEARCH] ExportersIndia | frozen french fries buyer india
+2026-10-12 10:30:15,991 | INFO | [SEARCH] ExportersIndia | potato wafer manufacturer india
+2026-10-12 10:30:17,223 | INFO | [SEARCH] ExportersIndia | namkeen manufacturer potato india
+2026-10-12 10:30:18,305 | INFO | [SEARCH] ExportersIndia | quick service restaurant potato supplier india
+2026-10-12 10:30:19,269 | INFO | [SEARCH] ExportersIndia | food service potato buyer india
+2026-10-12 10:30:20,126 | INFO | [SEARCH] ExportersIndia | cold storage potato trader india
+2026-10-12 10:30:21,181 | INFO | [SEARCH] ExportersIndia | vegetable distributor potatoes india
+2026-10-12 10:30:22,190 | INFO | [SEARCH] ExportersIndia | farm produce buyer potato india
+2026-10-12 10:30:23,148 | INFO | [SEARCH] ExportersIndia | food ingredient buyer potato starch india
+2026-10-12 10:30:23,914 | INFO | [SEARCH] ExportersIndia | processed food company potato india
+2026-10-12 10:30:24,781 | INFO | [SEARCH] ExportersIndia | potato export buyer india
+2026-10-12 10:30:25,523 | INFO | [SEARCH] ExportersIndia | potato import company india
+2026-10-12 10:30:26,249 | INFO | [SEARCH] ExportersIndia | potato purchasing manager india
+2026-10-12 10:30:27,005 | INFO | [SEARCH] ExportersIndia | potato sourcing company india
+2026-10-12 10:30:28,886 | INFO | [SEARCH] ExportersIndia | potato contract buyer india
+2026-10-12 10:30:29,651 | INFO | [SEARCH] ExportersIndia | potato b2b buyer india
+2026-10-12 10:30:30,433 | INFO | [SEARCH] ExportersIndia | industrial potato buyer india
+2026-10-12 10:30:31,371 | INFO | [SEARCH] ExportersIndia | potato manufacturer contact india
+2026-10-12 10:30:32,736 | INFO | [SEARCH] ExportersIndia | potato procurement lead india
+2026-10-12 10:30:34,002 | INFO | [SEARCH] ExportersIndia | potato bulk buyer india
+2026-10-12 10:30:35,185 | INFO | [SEARCH] ExportersIndia | potato demand company india
+2026-10-12 10:30:36,862 | INFO | [SEARCH] ExportersIndia | potato buyer email india
+2026-10-12 10:30:38,678 | INFO | [SEARCH] ExportersIndia | potato processing plant india
+2026-10-12 10:30:40,622 | INFO | [ADAPTER DONE] ExportersIndia -> 25 leads
+2026-10-12 10:30:41,881 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:30:47,314 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-potato-2853452556091.html -> 1 leads
+2026-10-12 10:30:52,248 | INFO | [FOUND] https://www.indiamart.com/proddetail/santana-fresh-potato-2850014190862.html -> 1 leads
+2026-10-12 10:30:54,578 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-vegetable-2852166865533.html -> 1 leads
+2026-10-12 10:31:02,207 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-yellow-potato-2850761097762.html -> 1 leads
+2026-10-12 10:31:07,889 | INFO | [FOUND] https://www.indiamart.com/proddetail/potatos-2859372681633.html -> 1 leads
+2026-10-12 10:31:13,450 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-farm-fresh-2859012207733.html -> 1 leads
+2026-10-12 10:31:16,030 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2857605179812.html -> 1 leads
+2026-10-12 10:31:20,817 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-8760146848.html -> 1 leads
+2026-10-12 10:31:23,687 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-2851502671655.html -> 1 leads
+2026-10-12 10:31:26,688 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-vegetable-2852989540373.html -> 1 leads
+2026-10-12 10:31:26,896 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-table-potato-2853593372730.html -> 1 leads
+2026-10-12 10:31:27,129 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-22046614162.html -> 1 leads
+2026-10-12 10:31:31,898 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-domestic-grade-2856638133555.html -> 1 leads
+2026-10-12 10:31:34,214 | INFO | [FOUND] https://www.indiamart.com/proddetail/fry-sona-potato-2854979346197.html -> 1 leads
+2026-10-12 10:31:35,993 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-2854335542930.html -> 1 leads
+2026-10-12 10:31:36,173 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-fresh-potato-2858055156362.html -> 1 leads
+2026-10-12 10:31:36,263 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potato-brown-4793509562.html -> 1 leads
+2026-10-12 10:31:41,987 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-potatoes-2987640330.html -> 1 leads
+2026-10-12 10:31:42,298 | INFO | [FOUND] https://www.indiamart.com/proddetail/white-fresh-kufri-jyoti-potato-2859134259233.html -> 1 leads
+2026-10-12 10:31:47,639 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-khyati-seed-size-potato-23183283630.html -> 1 leads
+2026-10-12 10:31:51,082 | INFO | [FOUND] https://www.indiamart.com/proddetail/garden-fresh-potatoes-20040124448.html -> 1 leads
+2026-10-12 10:32:02,465 | INFO | [FOUND] https://www.indiamart.com/proddetail/50kg-pukhraj-potato-2853240831030.html -> 1 leads
+2026-10-12 10:32:07,549 | INFO | [FOUND] https://www.indiamart.com/proddetail/natural-fresh-potato-20853269330.html -> 1 leads
+2026-10-12 10:32:07,706 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-fresh-potato-2859149154412.html -> 1 leads
+2026-10-12 10:32:10,684 | INFO | [FOUND] https://www.indiamart.com/proddetail/indore-chipsona-potatoes-2851668428588.html -> 1 leads
+2026-10-12 10:32:10,684 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:32:18,410 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-french-fries-bulk-supplies-volume-business-only-21529814362.html -> 1 leads
+2026-10-12 10:32:20,440 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-potato-smileys-face-2857200621030.html -> 1 leads
+2026-10-12 10:32:22,849 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-chinese-potato-koorka-peeled-sliced-1-kg-2859354087997.html -> 1 leads
+2026-10-12 10:32:25,425 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-frozen-potato-2856346935212.html -> 1 leads
+2026-10-12 10:32:25,538 | INFO | [FOUND] https://www.indiamart.com/proddetail/meatzza-frozen-food-potato-croquettes-jalapeno-cheese-2857367099562.html -> 1 leads
+2026-10-12 10:32:33,927 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-crispy-parsley-potato-25220154555.html -> 1 leads
+2026-10-12 10:32:34,043 | INFO | [FOUND] https://www.indiamart.com/proddetail/iqf-potato-cubes-10496953455.html -> 1 leads
+2026-10-12 10:32:36,628 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-potato-kiev-1kg-2858725097712.html -> 1 leads
+2026-10-12 10:32:48,607 | INFO | [FOUND] https://www.indiamart.com/company/263911704/ -> 1 leads
+2026-10-12 10:32:48,726 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-cp-frozen-potato-kievs-2857203235962.html -> 1 leads
+2026-10-12 10:32:51,856 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-fries-frozen-purple-rtc-2854562112673.html -> 1 leads
+2026-10-12 10:32:54,156 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-master-chef-potato-kiev-snacks-2857960225033.html -> 1 leads
+2026-10-12 10:32:54,277 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-experts-chilli-garlic-potato-shots-2850797958973.html -> 1 leads
+2026-10-12 10:32:54,415 | INFO | [FOUND] https://www.indiamart.com/proddetail/itc-master-chef-potato-kiev-2857199036891.html -> 1 leads
+2026-10-12 10:32:54,573 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-dice-8843373612.html -> 1 leads
+2026-10-12 10:32:54,696 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-diced-potato-20712002255.html -> 1 leads
+2026-10-12 10:32:54,817 | INFO | [FOUND] https://www.indiamart.com/proddetail/smiles-22553623355.html -> 1 leads
+2026-10-12 10:33:04,979 | INFO | [FOUND] https://www.indiamart.com/company/140631694/ -> 1 leads
+2026-10-12 10:33:05,119 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-21016289348.html -> 1 leads
+2026-10-12 10:33:05,240 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-dices-2390816848.html -> 1 leads
+2026-10-12 10:33:05,670 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-finger-20995787791.html -> 1 leads
+2026-10-12 10:33:05,869 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-bites-26631339097.html -> 1 leads
+2026-10-12 10:33:08,248 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-frozen-sweet-potato-2856408519933.html -> 1 leads
+2026-10-12 10:33:08,248 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:33:10,880 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-20842896091.html -> 1 leads
+2026-10-12 10:33:18,539 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-13m-2853145996512.html -> 1 leads
+2026-10-12 10:33:20,701 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-ip-bp-ep-usp-2859081699691.html -> 1 leads
+2026-10-12 10:33:22,876 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-9628781112.html -> 1 leads
+2026-10-12 10:33:25,346 | INFO | [FOUND] https://www.indiamart.com/proddetail/food-grade-potato-starch-powder-2859212666312.html -> 1 leads
+2026-10-12 10:33:28,004 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2859227557530.html -> 1 leads
+2026-10-12 10:33:30,706 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-15399783430.html -> 1 leads
+2026-10-12 10:33:36,429 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-food-grade-potato-starch-2857200601655.html -> 1 leads
+2026-10-12 10:33:38,526 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-12389745291.html -> 1 leads
+2026-10-12 10:33:41,019 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-2859097037697.html -> 1 leads
+2026-10-12 10:33:44,072 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2856638339912.html -> 1 leads
+2026-10-12 10:33:46,645 | INFO | [FOUND] https://www.indiamart.com/proddetail/starch-potato-potato-starch-1-kg-2853891028691.html -> 1 leads
+2026-10-12 10:33:49,959 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-7703758248.html -> 1 leads
+2026-10-12 10:33:53,317 | INFO | [FOUND] https://www.indiamart.com/proddetail/native-potato-starch-imported-12685925097.html -> 1 leads
+2026-10-12 10:33:56,010 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2857549194230.html -> 1 leads
+2026-10-12 10:33:59,754 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-9005-25-8-2858832492562.html -> 1 leads
+2026-10-12 10:34:02,415 | INFO | [FOUND] https://www.indiamart.com/proddetail/modified-potato-starch-2856863200730.html -> 1 leads
+2026-10-12 10:34:05,555 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-2858875890730.html -> 1 leads
+2026-10-12 10:34:10,239 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-21623299991.html -> 1 leads
+2026-10-12 10:34:10,517 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-500-grams-food-grade-2851789729155.html -> 1 leads
+2026-10-12 10:34:14,877 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-starch-2852045987162.html -> 1 leads
+2026-10-12 10:34:18,053 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-20291371930.html -> 1 leads
+2026-10-12 10:34:29,877 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-supplier-23482043362.html -> 1 leads
+2026-10-12 10:34:32,047 | INFO | [FOUND] https://www.indiamart.com/proddetail/white-potato-starch-3784278312.html -> 1 leads
+2026-10-12 10:34:34,818 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-starch-powder-21816332612.html -> 1 leads
+2026-10-12 10:34:34,819 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:34:38,332 | INFO | [FOUND] https://www.indiamart.com/proddetail/pukhraj-seed-potatoes-2859502121891.html -> 1 leads
+2026-10-12 10:34:43,557 | INFO | [FOUND] https://www.indiamart.com/proddetail/hybrid-potato-seeds-4611182448.html -> 1 leads
+2026-10-12 10:34:45,970 | INFO | [FOUND] https://www.indiamart.com/proddetail/mohan-potato-seed-2854988667848.html -> 1 leads
+2026-10-12 10:34:54,336 | INFO | [FOUND] https://www.indiamart.com/proddetail/a-grade-potato-seeds-2854903577873.html -> 1 leads
+2026-10-12 10:34:56,823 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-laukvar-seed-size-potato-23183296633.html -> 1 leads
+2026-10-12 10:34:58,950 | INFO | [FOUND] https://www.indiamart.com/proddetail/l-r-potato-seed-2855328468597.html -> 1 leads
+2026-10-12 10:35:01,591 | INFO | [FOUND] https://www.indiamart.com/proddetail/loose-potato-seed-2850957579412.html -> 1 leads
+2026-10-12 10:35:06,410 | INFO | [FOUND] https://www.indiamart.com/proddetail/3797-seeds-potato-2853471058191.html -> 1 leads
+2026-10-12 10:35:11,235 | INFO | [FOUND] https://www.indiamart.com/proddetail/red-potato-seeds-2855082368248.html -> 1 leads
+2026-10-12 10:35:15,892 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-chipsona-3-potato-seeds-2859343120697.html -> 1 leads
+2026-10-12 10:35:20,428 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-seed-potato-2850831555462.html -> 1 leads
+2026-10-12 10:35:20,551 | INFO | [FOUND] https://www.indiamart.com/proddetail/fresh-seed-potatoes-2855041337773.html -> 1 leads
+2026-10-12 10:35:23,806 | INFO | [FOUND] https://www.indiamart.com/proddetail/cpri-himachal-2857707074330.html -> 1 leads
+2026-10-12 10:35:26,311 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-badshah-potato-seed-15110950588.html -> 1 leads
+2026-10-12 10:35:26,455 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-k-chandramukhi-seeds-19835345730.html -> 1 leads
+2026-10-12 10:35:29,807 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-pukhraj-aloo-beej-kufri-pukhraj-potato-seed-27135873588.html -> 1 leads
+2026-10-12 10:35:29,939 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-jyoti-potato-seed-2851255623633.html -> 1 leads
+2026-10-12 10:35:35,087 | INFO | [FOUND] https://www.indiamart.com/proddetail/seed-potatoes-2853300605791.html -> 1 leads
+2026-10-12 10:35:35,271 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-jyoti-potato-seed-22645500791.html -> 1 leads
+2026-10-12 10:35:37,298 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-vegetable-seed-18490964297.html -> 1 leads
+2026-10-12 10:35:42,317 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-sangam-potato-seed-generation-2-2856856594030.html -> 1 leads
+2026-10-12 10:35:47,903 | INFO | [FOUND] https://www.indiamart.com/proddetail/taurus-potato-seed-25808849033.html -> 1 leads
+2026-10-12 10:35:53,054 | INFO | [FOUND] https://www.indiamart.com/proddetail/lr-wafer-potato-21877730291.html -> 1 leads
+2026-10-12 10:35:53,188 | INFO | [FOUND] https://www.indiamart.com/proddetail/colomba-potato-seeds-mahindra-hzpc-26819033488.html -> 1 leads
+2026-10-12 10:35:56,399 | INFO | [FOUND] https://www.indiamart.com/proddetail/kufri-chipsona-1-seed-2855099192833.html -> 1 leads
+2026-10-12 10:35:56,399 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:36:02,526 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-2859121948091.html -> 1 leads
+2026-10-12 10:36:05,146 | INFO | [FOUND] https://www.indiamart.com/proddetail/crinkle-cut-french-fries-2856159758130.html -> 1 leads
+2026-10-12 10:36:08,843 | INFO | [FOUND] https://www.indiamart.com/proddetail/happiyum-12mm-x-12mm-straight-cut-french-fries-2857161129262.html -> 1 leads
+2026-10-12 10:36:14,174 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-bulk-shipment-exports-orders-quantity-only-2854264418373.html -> 1 leads
+2026-10-12 10:36:18,744 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-9mm-by-mr-freeze-2854955275888.html -> 1 leads
+2026-10-12 10:36:21,640 | INFO | [FOUND] https://www.indiamart.com/proddetail/french-fries-mccain9mm-2-5kg-2850623738633.html -> 1 leads
+2026-10-12 10:36:24,703 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2859143790330.html -> 1 leads
+2026-10-12 10:36:26,941 | INFO | [FOUND] https://www.indiamart.com/proddetail/just-crave-frozen-french-fries-2858201303491.html -> 1 leads
+2026-10-12 10:36:28,757 | INFO | [FOUND] https://www.indiamart.com/proddetail/2-5kg-hungritos-french-fries-2858746703291.html -> 1 leads
+2026-10-12 10:36:29,124 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2859808115555.html -> 1 leads
+2026-10-12 10:36:29,271 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fry-10137273233.html -> 1 leads
+2026-10-12 10:36:29,416 | INFO | [FOUND] https://www.indiamart.com/proddetail/masala-fries-12193980155.html -> 1 leads
+2026-10-12 10:36:29,499 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-22506626488.html -> 1 leads
+2026-10-12 10:36:32,830 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2855855517673.html -> 1 leads
+2026-10-12 10:36:32,944 | INFO | [FOUND] https://www.indiamart.com/proddetail/favorita-mccain-9mm-frozen-french-fries-2859719241112.html -> 1 leads
+2026-10-12 10:36:33,390 | INFO | [FOUND] https://www.indiamart.com/proddetail/crispy-masala-seasoned-potato-french-fries-2859487451873.html -> 1 leads
+2026-10-12 10:36:35,987 | INFO | [FOUND] https://www.indiamart.com/proddetail/chill-fill-french-fries-2856589935862.html -> 1 leads
+2026-10-12 10:36:38,851 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-26017965655.html -> 1 leads
+2026-10-12 10:36:41,730 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-potato-french-fries-2855415574148.html -> 1 leads
+2026-10-12 10:36:44,068 | INFO | [FOUND] https://www.indiamart.com/proddetail/chill-fill-french-fries-shoestring-2-5kg-2856614725133.html -> 1 leads
+2026-10-12 10:36:46,549 | INFO | [FOUND] https://www.indiamart.com/proddetail/funwave-straight-cut-9mm-french-fries-2853531327397.html -> 1 leads
+2026-10-12 10:36:48,711 | INFO | [FOUND] https://www.indiamart.com/proddetail/hyfun-french-fries-straight-cut-9-mm-6mm-2-5-kg-2855863723788.html -> 1 leads
+2026-10-12 10:36:51,743 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-2851565488648.html -> 1 leads
+2026-10-12 10:36:54,200 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-6mm-2859472143497.html -> 1 leads
+2026-10-12 10:36:57,313 | INFO | [FOUND] https://www.indiamart.com/proddetail/frozen-french-fries-and-masala-fries-2859821437588.html -> 1 leads
+2026-10-12 10:36:57,313 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:37:00,244 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2859030336948.html -> 1 leads
+2026-10-12 10:37:02,550 | INFO | [FOUND] https://www.indiamart.com/proddetail/angel-potato-flour-2857856430012.html -> 1 leads
+2026-10-12 10:37:07,557 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-powder-2852757853162.html -> 1 leads
+2026-10-12 10:37:10,994 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-powder-2859416922291.html -> 1 leads
+2026-10-12 10:37:13,968 | INFO | [FOUND] https://www.indiamart.com/proddetail/natural-potato-powder-2850593391488.html -> 1 leads
+2026-10-12 10:37:16,036 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-26191578973.html -> 1 leads
+2026-10-12 10:37:18,644 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-7405877412.html -> 1 leads
+2026-10-12 10:37:22,036 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-12129481391.html -> 1 leads
+2026-10-12 10:37:24,986 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-powder-2859615196830.html -> 1 leads
+2026-10-12 10:37:27,875 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-powder-2855223394148.html -> 1 leads
+2026-10-12 10:37:30,096 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-powder-13925486133.html -> 1 leads
+2026-10-12 10:37:32,287 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2854519810491.html -> 1 leads
+2026-10-12 10:37:38,678 | INFO | [FOUND] https://www.indiamart.com/proddetail/spray-dried-potato-powder-24651951197.html -> 1 leads
+2026-10-12 10:37:42,231 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2849543774773.html -> 1 leads
+2026-10-12 10:37:45,370 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2856314272830.html -> 1 leads
+2026-10-12 10:37:48,618 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-sweet-potato-powder-2858958653373.html -> 1 leads
+2026-10-12 10:37:53,663 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2859204830397.html -> 1 leads
+2026-10-12 10:37:56,330 | INFO | [FOUND] https://www.indiamart.com/proddetail/herbojit-dehydrated-potato-powder-2855359675797.html -> 1 leads
+2026-10-12 10:37:58,600 | INFO | [FOUND] https://www.indiamart.com/proddetail/1-kg-potato-powder-2858195039012.html -> 1 leads
+2026-10-12 10:38:01,002 | INFO | [FOUND] https://www.indiamart.com/proddetail/sweet-potato-powder-2859495551648.html -> 1 leads
+2026-10-12 10:38:03,821 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-powder-2859801326297.html -> 1 leads
+2026-10-12 10:38:06,793 | INFO | [FOUND] https://www.indiamart.com/proddetail/mashed-potato-powder-9849942491.html -> 1 leads
+2026-10-12 10:38:09,394 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-powder-2854033823848.html -> 1 leads
+2026-10-12 10:38:11,531 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-23445521930.html -> 1 leads
+2026-10-12 10:38:13,783 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-powder-23859096188.html -> 1 leads
+2026-10-12 10:38:13,783 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:38:16,161 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-25854844491.html -> 1 leads
+2026-10-12 10:38:18,718 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-powder-2851620292188.html -> 1 leads
+2026-10-12 10:38:29,194 | INFO | [FOUND] https://www.indiamart.com/proddetail/export-quality-potato-flakes-wholesale-supplier-2857200597655.html -> 1 leads
+2026-10-12 10:38:32,351 | INFO | [FOUND] https://www.indiamart.com/proddetail/mashed-potato-flakes-25958504248.html -> 1 leads
+2026-10-12 10:38:35,851 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-powder-labh-group-2859027689748.html -> 1 leads
+2026-10-12 10:38:39,585 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-2859672575791.html -> 1 leads
+2026-10-12 10:38:43,843 | INFO | [FOUND] https://www.indiamart.com/proddetail/dried-potato-khies-23303738048.html -> 1 leads
+2026-10-12 10:38:46,749 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-2858371936791.html -> 1 leads
+2026-10-12 10:38:49,570 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-2852081465748.html -> 1 leads
+2026-10-12 10:38:52,159 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21549939862.html -> 1 leads
+2026-10-12 10:38:55,696 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-22514129788.html -> 1 leads
+2026-10-12 10:38:58,014 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-16024661973.html -> 1 leads
+2026-10-12 10:39:00,251 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-dehydrated-flakes-21203656455.html -> 1 leads
+2026-10-12 10:39:02,996 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-20388474288.html -> 1 leads
+2026-10-12 10:39:06,520 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-flakes-powder-16233416362.html -> 1 leads
+2026-10-12 10:39:11,640 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-21810217088.html -> 1 leads
+2026-10-12 10:39:15,193 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-2853006190448.html -> 1 leads
+2026-10-12 10:39:18,883 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-2854988027033.html -> 1 leads
+2026-10-12 10:39:22,262 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-flakes-22593793530.html -> 1 leads
+2026-10-12 10:39:24,389 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-25869688373.html -> 1 leads
+2026-10-12 10:39:27,147 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-11494487748.html -> 1 leads
+2026-10-12 10:39:29,471 | INFO | [FOUND] https://www.indiamart.com/proddetail/20-kg-dehydrated-milled-potato-flakes-2858886024373.html -> 1 leads
+2026-10-12 10:39:31,577 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-flakes-2850580676548.html -> 1 leads
+2026-10-12 10:39:36,373 | INFO | [FOUND] https://www.indiamart.com/proddetail/dry-potato-milled-2855330311555.html -> 1 leads
+2026-10-12 10:39:39,338 | INFO | [FOUND] https://www.indiamart.com/proddetail/madan-murari-dehydrated-potato-flakes-2852983772533.html -> 1 leads
+2026-10-12 10:39:39,338 | INFO | [SEARCH] IndiaMART | [static]
+2026-10-12 10:39:39,540 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-2858834019491.html -> 1 leads
+2026-10-12 10:39:39,965 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-5363558830.html -> 1 leads
+2026-10-12 10:39:40,085 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granule-2856003464130.html -> 1 leads
+2026-10-12 10:39:40,206 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granules-4229261212.html -> 1 leads
+2026-10-12 10:39:40,323 | INFO | [FOUND] https://www.indiamart.com/proddetail/potato-granules-9398333288.html -> 1 leads
+2026-10-12 10:39:40,461 | INFO | [FOUND] https://www.indiamart.com/proddetail/dehydrated-potato-granules-2852625791588.html -> 1 leads
+2026-10-12 10:39:51,599 | INFO | [FOUND] https://www.indiamart.com/company/137181659/ -> 1 leads
+2026-10-12 10:40:01,158 | INFO | [FOUND] https://www.indiamart.com/company/145637894/ -> 1 leads
+2026-10-12 10:40:01,160 | INFO | [ADAPTER DONE] IndiaMART -> 21 leads
+2026-10-12 10:40:01,805 | WARNING | [SKIP] Justdial sample request failed for https://www.justdial.com/search?q=potato+buyer+india (403 Client Error: Forbidden for url: https://www.justdial.com/search?q=potato+buyer+india)
+2026-10-12 10:40:01,805 | INFO | [ADAPTER DONE] Justdial -> 0 leads
+2026-10-12 10:40:02,050 | WARNING | [SKIP] Yellow Pages India robots disallow search template: https://www.yellowpages.in/search/potato+buyer+india
+2026-10-12 10:40:02,050 | INFO | [ADAPTER DONE] Yellow Pages India -> 0 leads
+2026-10-12 10:40:03,312 | INFO | [SEARCH] Go4WorldBusiness | potato buyer india
+2026-10-12 10:40:16,566 | INFO | [FOUND] https://www.go4worldbusiness.com/member/new -> 1 leads
+2026-10-12 10:40:28,203 | INFO | [FOUND] https://www.go4worldbusiness.com/member/displayproducts -> 1 leads
+2026-10-12 10:40:42,475 | INFO | [FOUND] https://www.go4worldbusiness.com/member/becomepremium -> 1 leads
+2026-10-12 10:40:55,613 | INFO | [FOUND] https://www.go4worldbusiness.com/member/console/edit/manageproducts -> 1 leads
+2026-10-12 10:40:55,613 | INFO | [SEARCH] Go4WorldBusiness | potato importer india
+2026-10-12 10:40:56,619 | INFO | [SEARCH] Go4WorldBusiness | potato distributor india
+2026-10-12 10:40:57,534 | INFO | [SEARCH] Go4WorldBusiness | potato wholesaler india
+2026-10-12 10:40:58,476 | INFO | [SEARCH] Go4WorldBusiness | fresh potato buyer india
+2026-10-12 10:40:59,623 | INFO | [SEARCH] Go4WorldBusiness | processing potato buyer india
+2026-10-12 10:41:00,728 | INFO | [SEARCH] Go4WorldBusiness | frozen potato buyer india
+2026-10-12 10:41:01,729 | INFO | [SEARCH] Go4WorldBusiness | table potato buyer india
+2026-10-12 10:41:02,670 | INFO | [SEARCH] Go4WorldBusiness | seed potato buyer india
+2026-10-12 10:41:03,712 | INFO | [SEARCH] Go4WorldBusiness | potato chips manufacturer india
+2026-10-12 10:41:04,762 | INFO | [SEARCH] Go4WorldBusiness | french fries manufacturer india
+2026-10-12 10:41:05,710 | INFO | [SEARCH] Go4WorldBusiness | potato starch buyer india
+2026-10-12 10:41:06,768 | INFO | [SEARCH] Go4WorldBusiness | dehydrated potato buyer india
+2026-10-12 10:41:07,696 | INFO | [SEARCH] Go4WorldBusiness | potato flakes buyer india
+2026-10-12 10:41:08,719 | INFO | [SEARCH] Go4WorldBusiness | potato granules buyer india
+2026-10-12 10:41:09,668 | INFO | [SEARCH] Go4WorldBusiness | potato powder buyer india
+2026-10-12 10:41:10,637 | INFO | [SEARCH] Go4WorldBusiness | potato processing company india
+2026-10-12 10:41:11,802 | INFO | [SEARCH] Go4WorldBusiness | snack manufacturer potato india
+2026-10-12 10:41:12,783 | INFO | [SEARCH] Go4WorldBusiness | frozen foods company potato india
+2026-10-12 10:41:13,609 | INFO | [SEARCH] Go4WorldBusiness | food distributor potatoes india
+2026-10-12 10:41:14,933 | INFO | [SEARCH] Go4WorldBusiness | agro importer potatoes india
+2026-10-12 10:41:15,891 | INFO | [SEARCH] Go4WorldBusiness | retail chain potato procurement india
+2026-10-12 10:41:16,668 | INFO | [SEARCH] Go4WorldBusiness | hotel supply potato buyer india
+2026-10-12 10:41:17,820 | INFO | [SEARCH] Go4WorldBusiness | canteen supplier potato india
+2026-10-12 10:41:18,789 | INFO | [SEARCH] Go4WorldBusiness | institutional potato buyer india
+2026-10-12 10:41:19,777 | INFO | [SEARCH] Go4WorldBusiness | bulk potato purchase india
+2026-10-12 10:41:20,768 | INFO | [SEARCH] Go4WorldBusiness | potato procurement company india
+2026-10-12 10:41:21,787 | INFO | [SEARCH] Go4WorldBusiness | potato trading company india
+2026-10-12 10:41:22,849 | INFO | [SEARCH] Go4WorldBusiness | aloo buyer india
+2026-10-12 10:41:23,714 | INFO | [SEARCH] Go4WorldBusiness | aloo wholesaler india
+2026-10-12 10:41:24,482 | INFO | [SEARCH] Go4WorldBusiness | potato supplier for chips india
+2026-10-12 10:41:25,441 | INFO | [SEARCH] Go4WorldBusiness | potato supplier for fries india
+2026-10-12 10:41:26,537 | INFO | [SEARCH] Go4WorldBusiness | potato starch manufacturer india
+2026-10-12 10:41:27,533 | INFO | [SEARCH] Go4WorldBusiness | potato flakes importer india
+2026-10-12 10:41:28,823 | INFO | [SEARCH] Go4WorldBusiness | potato flakes distributor india
+2026-10-12 10:41:29,760 | INFO | [SEARCH] Go4WorldBusiness | potato granules importer india
+2026-10-12 10:41:30,755 | INFO | [SEARCH] Go4WorldBusiness | potato products buyer india
+2026-10-12 10:41:31,685 | INFO | [SEARCH] Go4WorldBusiness | frozen french fries buyer india
+2026-10-12 10:41:32,708 | INFO | [SEARCH] Go4WorldBusiness | potato wafer manufacturer india
+2026-10-12 10:41:33,702 | INFO | [SEARCH] Go4WorldBusiness | namkeen manufacturer potato india
+2026-10-12 10:41:34,724 | INFO | [SEARCH] Go4WorldBusiness | quick service restaurant potato supplier india
+2026-10-12 10:41:35,468 | INFO | [SEARCH] Go4WorldBusiness | food service potato buyer india
+2026-10-12 10:41:36,772 | INFO | [SEARCH] Go4WorldBusiness | cold storage potato trader india
+2026-10-12 10:41:37,844 | INFO | [SEARCH] Go4WorldBusiness | vegetable distributor potatoes india
+2026-10-12 10:41:38,817 | INFO | [SEARCH] Go4WorldBusiness | farm produce buyer potato india
+2026-10-12 10:41:40,073 | INFO | [SEARCH] Go4WorldBusiness | food ingredient buyer potato starch india
+2026-10-12 10:41:40,901 | INFO | [SEARCH] Go4WorldBusiness | processed food company potato india
+2026-10-12 10:41:41,914 | INFO | [SEARCH] Go4WorldBusiness | potato export buyer india
+2026-10-12 10:41:42,890 | INFO | [SEARCH] Go4WorldBusiness | potato import company india
+2026-10-12 10:41:43,901 | INFO | [SEARCH] Go4WorldBusiness | potato purchasing manager india
+2026-10-12 10:41:44,852 | INFO | [SEARCH] Go4WorldBusiness | potato sourcing company india
+2026-10-12 10:41:45,889 | INFO | [SEARCH] Go4WorldBusiness | potato contract buyer india
+2026-10-12 10:41:46,870 | INFO | [SEARCH] Go4WorldBusiness | potato b2b buyer india
+2026-10-12 10:41:47,900 | INFO | [SEARCH] Go4WorldBusiness | industrial potato buyer india
+2026-10-12 10:41:49,229 | INFO | [SEARCH] Go4WorldBusiness | potato manufacturer contact india
+2026-10-12 10:41:50,200 | INFO | [SEARCH] Go4WorldBusiness | potato procurement lead india
+2026-10-12 10:41:51,188 | INFO | [SEARCH] Go4WorldBusiness | potato bulk buyer india
+2026-10-12 10:41:52,226 | INFO | [SEARCH] Go4WorldBusiness | potato demand company india
+2026-10-12 10:41:53,196 | INFO | [SEARCH] Go4WorldBusiness | potato buyer email india
+2026-10-12 10:41:54,186 | INFO | [SEARCH] Go4WorldBusiness | potato processing plant india
+2026-10-12 10:41:55,396 | INFO | [ADAPTER DONE] Go4WorldBusiness -> 2 leads
+2026-10-12 10:41:55,399 | INFO | Saved 48 leads
+2026-10-12 10:41:55,399 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
+2026-10-12 10:41:55,399 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
