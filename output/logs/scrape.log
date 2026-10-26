@@ -3563,3 +3563,178 @@
 2026-10-19 08:43:01,433 | INFO | Saved 27 leads
 2026-10-19 08:43:01,433 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
 2026-10-19 08:43:01,433 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
+2026-10-26 08:36:57,826 | WARNING | [SKIP] Europages robots disallow search template: https://www.europages.co.uk/companies/potato+buyer+india.html
+2026-10-26 08:36:57,826 | INFO | [ADAPTER DONE] Europages -> 0 leads
+2026-10-26 08:36:58,169 | WARNING | [SKIP] Kompass robots disallow search template: https://www.kompass.com/en/searchCompanies/?text=potato+buyer+india
+2026-10-26 08:36:58,170 | INFO | [ADAPTER DONE] Kompass -> 0 leads
+2026-10-26 08:36:58,719 | WARNING | [SKIP] TradeIndia robots disallow search template: https://www.tradeindia.com/search.html?keyword=potato+buyer+india
+2026-10-26 08:36:58,719 | INFO | [ADAPTER DONE] TradeIndia -> 0 leads
+2026-10-26 08:36:59,945 | INFO | [SEARCH] ExportersIndia | potato buyer india
+2026-10-26 08:37:03,945 | INFO | [FOUND] https://www.exportersindia.com/post-buy-requirement.php -> 1 leads
+2026-10-26 08:37:18,951 | INFO | [FOUND] https://www.exportersindia.com/industry/ -> 1 leads
+2026-10-26 08:37:32,901 | INFO | [FOUND] https://www.exportersindia.com/indian-manufacturers/ -> 1 leads
+2026-10-26 08:37:47,953 | INFO | [FOUND] https://www.exportersindia.com/b2b-marketplace.htm -> 1 leads
+2026-10-26 08:38:01,431 | INFO | [FOUND] https://www.exportersindia.com/buyers/ -> 1 leads
+2026-10-26 08:38:16,969 | INFO | [FOUND] https://www.exportersindia.com/feedback.htm -> 1 leads
+2026-10-26 08:38:31,219 | INFO | [FOUND] https://www.exportersindia.com/complaint.htm -> 1 leads
+2026-10-26 08:38:46,995 | INFO | [FOUND] https://www.exportersindia.com/advertise/ -> 1 leads
+2026-10-26 08:39:01,016 | INFO | [FOUND] https://www.exportersindia.com/ -> 1 leads
+2026-10-26 08:39:14,616 | INFO | [FOUND] https://www.exportersindia.com/industry/agriculture.htm -> 1 leads
+2026-10-26 08:39:29,776 | INFO | [FOUND] https://www.exportersindia.com/industry/fashion-apparel.htm -> 1 leads
+2026-10-26 08:39:46,342 | INFO | [FOUND] https://www.exportersindia.com/industry/automobile.htm -> 1 leads
+2026-10-26 08:40:02,174 | INFO | [FOUND] https://www.exportersindia.com/industry/ayurvedic-herbal.htm -> 1 leads
+2026-10-26 08:40:16,237 | INFO | [FOUND] https://www.exportersindia.com/indian-services/ -> 1 leads
+2026-10-26 08:40:30,410 | INFO | [FOUND] https://www.exportersindia.com/industry/chemicals.htm -> 1 leads
+2026-10-26 08:40:44,804 | INFO | [FOUND] https://www.exportersindia.com/industry/computers-internet.htm -> 1 leads
+2026-10-26 08:40:59,099 | INFO | [FOUND] https://www.exportersindia.com/industry/realestate-construction.htm -> 1 leads
+2026-10-26 08:41:13,063 | INFO | [FOUND] https://www.exportersindia.com/industry/consumer-electronics.htm -> 1 leads
+2026-10-26 08:41:27,494 | INFO | [FOUND] https://www.exportersindia.com/industry/electronics-electrical.htm -> 1 leads
+2026-10-26 08:41:42,747 | INFO | [FOUND] https://www.exportersindia.com/indian-services/financial.htm -> 1 leads
+2026-10-26 08:41:58,344 | INFO | [FOUND] https://www.exportersindia.com/industry/furniture.htm -> 1 leads
+2026-10-26 08:42:12,501 | INFO | [FOUND] https://www.exportersindia.com/industry/food-beverages.htm -> 1 leads
+2026-10-26 08:42:26,280 | INFO | [FOUND] https://www.exportersindia.com/industry/gifts-crafts.htm -> 1 leads
+2026-10-26 08:42:40,701 | INFO | [FOUND] https://www.exportersindia.com/industry/health-beauty.htm -> 1 leads
+2026-10-26 08:42:56,039 | INFO | [FOUND] https://www.exportersindia.com/industry/home-supplies.htm -> 1 leads
+2026-10-26 08:42:56,039 | INFO | [SEARCH] ExportersIndia | potato importer india
+2026-10-26 08:42:56,635 | INFO | [SEARCH] ExportersIndia | potato distributor india
+2026-10-26 08:42:57,191 | INFO | [SEARCH] ExportersIndia | potato wholesaler india
+2026-10-26 08:42:57,784 | INFO | [SEARCH] ExportersIndia | fresh potato buyer india
+2026-10-26 08:42:58,297 | INFO | [SEARCH] ExportersIndia | processing potato buyer india
+2026-10-26 08:42:58,883 | INFO | [SEARCH] ExportersIndia | frozen potato buyer india
+2026-10-26 08:42:59,484 | INFO | [SEARCH] ExportersIndia | table potato buyer india
+2026-10-26 08:43:00,061 | INFO | [SEARCH] ExportersIndia | seed potato buyer india
+2026-10-26 08:43:00,744 | INFO | [SEARCH] ExportersIndia | potato chips manufacturer india
+2026-10-26 08:43:01,394 | INFO | [SEARCH] ExportersIndia | french fries manufacturer india
+2026-10-26 08:43:01,961 | INFO | [SEARCH] ExportersIndia | potato starch buyer india
+2026-10-26 08:43:02,535 | INFO | [SEARCH] ExportersIndia | dehydrated potato buyer india
+2026-10-26 08:43:03,138 | INFO | [SEARCH] ExportersIndia | potato flakes buyer india
+2026-10-26 08:43:03,654 | INFO | [SEARCH] ExportersIndia | potato granules buyer india
+2026-10-26 08:43:04,305 | INFO | [SEARCH] ExportersIndia | potato powder buyer india
+2026-10-26 08:43:04,822 | INFO | [SEARCH] ExportersIndia | potato processing company india
+2026-10-26 08:43:05,362 | INFO | [SEARCH] ExportersIndia | snack manufacturer potato india
+2026-10-26 08:43:05,872 | INFO | [SEARCH] ExportersIndia | frozen foods company potato india
+2026-10-26 08:43:06,623 | INFO | [SEARCH] ExportersIndia | food distributor potatoes india
+2026-10-26 08:43:07,209 | INFO | [SEARCH] ExportersIndia | agro importer potatoes india
+2026-10-26 08:43:07,747 | INFO | [SEARCH] ExportersIndia | retail chain potato procurement india
+2026-10-26 08:43:08,296 | INFO | [SEARCH] ExportersIndia | hotel supply potato buyer india
+2026-10-26 08:43:08,896 | INFO | [SEARCH] ExportersIndia | canteen supplier potato india
+2026-10-26 08:43:09,532 | INFO | [SEARCH] ExportersIndia | institutional potato buyer india
+2026-10-26 08:43:10,100 | INFO | [SEARCH] ExportersIndia | bulk potato purchase india
+2026-10-26 08:43:10,617 | INFO | [SEARCH] ExportersIndia | potato procurement company india
+2026-10-26 08:43:11,164 | INFO | [SEARCH] ExportersIndia | potato trading company india
+2026-10-26 08:43:11,700 | INFO | [SEARCH] ExportersIndia | aloo buyer india
+2026-10-26 08:43:12,288 | INFO | [SEARCH] ExportersIndia | aloo wholesaler india
+2026-10-26 08:43:12,857 | INFO | [SEARCH] ExportersIndia | potato supplier for chips india
+2026-10-26 08:43:13,696 | INFO | [SEARCH] ExportersIndia | potato supplier for fries india
+2026-10-26 08:43:14,430 | INFO | [SEARCH] ExportersIndia | potato starch manufacturer india
+2026-10-26 08:43:14,951 | INFO | [SEARCH] ExportersIndia | potato flakes importer india
+2026-10-26 08:43:15,539 | INFO | [SEARCH] ExportersIndia | potato flakes distributor india
+2026-10-26 08:43:16,138 | INFO | [SEARCH] ExportersIndia | potato granules importer india
+2026-10-26 08:43:16,832 | INFO | [SEARCH] ExportersIndia | potato products buyer india
+2026-10-26 08:43:17,381 | INFO | [SEARCH] ExportersIndia | frozen french fries buyer india
+2026-10-26 08:43:18,032 | INFO | [SEARCH] ExportersIndia | potato wafer manufacturer india
+2026-10-26 08:43:18,594 | INFO | [SEARCH] ExportersIndia | namkeen manufacturer potato india
+2026-10-26 08:43:19,127 | INFO | [SEARCH] ExportersIndia | quick service restaurant potato supplier india
+2026-10-26 08:43:19,684 | INFO | [SEARCH] ExportersIndia | food service potato buyer india
+2026-10-26 08:43:20,197 | INFO | [SEARCH] ExportersIndia | cold storage potato trader india
+2026-10-26 08:43:20,776 | INFO | [SEARCH] ExportersIndia | vegetable distributor potatoes india
+2026-10-26 08:43:21,290 | INFO | [SEARCH] ExportersIndia | farm produce buyer potato india
+2026-10-26 08:43:21,845 | INFO | [SEARCH] ExportersIndia | food ingredient buyer potato starch india
+2026-10-26 08:43:22,413 | INFO | [SEARCH] ExportersIndia | processed food company potato india
+2026-10-26 08:43:23,007 | INFO | [SEARCH] ExportersIndia | potato export buyer india
+2026-10-26 08:43:23,650 | INFO | [SEARCH] ExportersIndia | potato import company india
+2026-10-26 08:43:24,165 | INFO | [SEARCH] ExportersIndia | potato purchasing manager india
+2026-10-26 08:43:24,763 | INFO | [SEARCH] ExportersIndia | potato sourcing company india
+2026-10-26 08:43:25,322 | INFO | [SEARCH] ExportersIndia | potato contract buyer india
+2026-10-26 08:43:25,830 | INFO | [SEARCH] ExportersIndia | potato b2b buyer india
+2026-10-26 08:43:26,361 | INFO | [SEARCH] ExportersIndia | industrial potato buyer india
+2026-10-26 08:43:26,999 | INFO | [SEARCH] ExportersIndia | potato manufacturer contact india
+2026-10-26 08:43:27,544 | INFO | [SEARCH] ExportersIndia | potato procurement lead india
+2026-10-26 08:43:28,122 | INFO | [SEARCH] ExportersIndia | potato bulk buyer india
+2026-10-26 08:43:28,641 | INFO | [SEARCH] ExportersIndia | potato demand company india
+2026-10-26 08:43:29,170 | INFO | [SEARCH] ExportersIndia | potato buyer email india
+2026-10-26 08:43:29,755 | INFO | [SEARCH] ExportersIndia | potato processing plant india
+2026-10-26 08:43:30,343 | INFO | [ADAPTER DONE] ExportersIndia -> 25 leads
+2026-10-26 08:43:30,651 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato.html)
+2026-10-26 08:43:30,782 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/frozen-potato.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/frozen-potato.html)
+2026-10-26 08:43:30,916 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-starch.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-starch.html)
+2026-10-26 08:43:31,048 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/seed-potatoes.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/seed-potatoes.html)
+2026-10-26 08:43:31,180 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/french-fries.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/french-fries.html)
+2026-10-26 08:43:31,312 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-powder.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-powder.html)
+2026-10-26 08:43:31,444 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-flake.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-flake.html)
+2026-10-26 08:43:31,576 | WARNING | [SKIP] IndiaMART sample request failed for https://dir.indiamart.com/impcat/potato-granule.html (429 Client Error: Too Many Requests for url: https://dir.indiamart.com/impcat/potato-granule.html)
+2026-10-26 08:43:31,576 | INFO | [ADAPTER DONE] IndiaMART -> 0 leads
+2026-10-26 08:43:32,048 | WARNING | [SKIP] Justdial sample request failed for https://www.justdial.com/search?q=potato+buyer+india (403 Client Error: Forbidden for url: https://www.justdial.com/search?q=potato+buyer+india)
+2026-10-26 08:43:32,048 | INFO | [ADAPTER DONE] Justdial -> 0 leads
+2026-10-26 08:43:32,217 | WARNING | [SKIP] Yellow Pages India robots disallow search template: https://www.yellowpages.in/search/potato+buyer+india
+2026-10-26 08:43:32,217 | INFO | [ADAPTER DONE] Yellow Pages India -> 0 leads
+2026-10-26 08:43:33,138 | INFO | [SEARCH] Go4WorldBusiness | potato buyer india
+2026-10-26 08:43:46,937 | INFO | [FOUND] https://www.go4worldbusiness.com/member/new -> 1 leads
+2026-10-26 08:43:58,238 | INFO | [FOUND] https://www.go4worldbusiness.com/member/displayproducts -> 1 leads
+2026-10-26 08:44:12,204 | INFO | [FOUND] https://www.go4worldbusiness.com/member/becomepremium -> 1 leads
+2026-10-26 08:44:26,823 | INFO | [FOUND] https://www.go4worldbusiness.com/member/dashboard/buy-requirements -> 1 leads
+2026-10-26 08:44:40,273 | INFO | [FOUND] https://www.go4worldbusiness.com/member/dashboard/matching-buyleads -> 1 leads
+2026-10-26 08:44:52,976 | INFO | [FOUND] https://www.go4worldbusiness.com/member/dashboard/products -> 1 leads
+2026-10-26 08:44:52,976 | INFO | [SEARCH] Go4WorldBusiness | potato importer india
+2026-10-26 08:44:53,741 | INFO | [SEARCH] Go4WorldBusiness | potato distributor india
+2026-10-26 08:44:54,496 | INFO | [SEARCH] Go4WorldBusiness | potato wholesaler india
+2026-10-26 08:44:55,514 | INFO | [SEARCH] Go4WorldBusiness | fresh potato buyer india
+2026-10-26 08:44:56,401 | INFO | [SEARCH] Go4WorldBusiness | processing potato buyer india
+2026-10-26 08:44:57,455 | INFO | [SEARCH] Go4WorldBusiness | frozen potato buyer india
+2026-10-26 08:44:58,708 | INFO | [SEARCH] Go4WorldBusiness | table potato buyer india
+2026-10-26 08:44:59,894 | INFO | [SEARCH] Go4WorldBusiness | seed potato buyer india
+2026-10-26 08:45:00,829 | INFO | [SEARCH] Go4WorldBusiness | potato chips manufacturer india
+2026-10-26 08:45:01,674 | INFO | [SEARCH] Go4WorldBusiness | french fries manufacturer india
+2026-10-26 08:45:02,446 | INFO | [SEARCH] Go4WorldBusiness | potato starch buyer india
+2026-10-26 08:45:03,198 | INFO | [SEARCH] Go4WorldBusiness | dehydrated potato buyer india
+2026-10-26 08:45:03,968 | INFO | [SEARCH] Go4WorldBusiness | potato flakes buyer india
+2026-10-26 08:45:04,787 | INFO | [SEARCH] Go4WorldBusiness | potato granules buyer india
+2026-10-26 08:45:05,598 | INFO | [SEARCH] Go4WorldBusiness | potato powder buyer india
+2026-10-26 08:45:06,413 | INFO | [SEARCH] Go4WorldBusiness | potato processing company india
+2026-10-26 08:45:07,527 | INFO | [SEARCH] Go4WorldBusiness | snack manufacturer potato india
+2026-10-26 08:45:08,435 | INFO | [SEARCH] Go4WorldBusiness | frozen foods company potato india
+2026-10-26 08:45:09,266 | INFO | [SEARCH] Go4WorldBusiness | food distributor potatoes india
+2026-10-26 08:45:10,260 | INFO | [SEARCH] Go4WorldBusiness | agro importer potatoes india
+2026-10-26 08:45:11,033 | INFO | [SEARCH] Go4WorldBusiness | retail chain potato procurement india
+2026-10-26 08:45:11,702 | INFO | [SEARCH] Go4WorldBusiness | hotel supply potato buyer india
+2026-10-26 08:45:12,580 | INFO | [SEARCH] Go4WorldBusiness | canteen supplier potato india
+2026-10-26 08:45:13,430 | INFO | [SEARCH] Go4WorldBusiness | institutional potato buyer india
+2026-10-26 08:45:14,251 | INFO | [SEARCH] Go4WorldBusiness | bulk potato purchase india
+2026-10-26 08:45:15,111 | INFO | [SEARCH] Go4WorldBusiness | potato procurement company india
+2026-10-26 08:45:15,904 | INFO | [SEARCH] Go4WorldBusiness | potato trading company india
+2026-10-26 08:45:16,760 | INFO | [SEARCH] Go4WorldBusiness | aloo buyer india
+2026-10-26 08:45:17,410 | INFO | [SEARCH] Go4WorldBusiness | aloo wholesaler india
+2026-10-26 08:45:18,055 | INFO | [SEARCH] Go4WorldBusiness | potato supplier for chips india
+2026-10-26 08:45:18,927 | INFO | [SEARCH] Go4WorldBusiness | potato supplier for fries india
+2026-10-26 08:45:19,713 | INFO | [SEARCH] Go4WorldBusiness | potato starch manufacturer india
+2026-10-26 08:45:20,594 | INFO | [SEARCH] Go4WorldBusiness | potato flakes importer india
+2026-10-26 08:45:21,386 | INFO | [SEARCH] Go4WorldBusiness | potato flakes distributor india
+2026-10-26 08:45:22,171 | INFO | [SEARCH] Go4WorldBusiness | potato granules importer india
+2026-10-26 08:45:22,940 | INFO | [SEARCH] Go4WorldBusiness | potato products buyer india
+2026-10-26 08:45:23,743 | INFO | [SEARCH] Go4WorldBusiness | frozen french fries buyer india
+2026-10-26 08:45:24,642 | INFO | [SEARCH] Go4WorldBusiness | potato wafer manufacturer india
+2026-10-26 08:45:25,469 | INFO | [SEARCH] Go4WorldBusiness | namkeen manufacturer potato india
+2026-10-26 08:45:26,234 | INFO | [SEARCH] Go4WorldBusiness | quick service restaurant potato supplier india
+2026-10-26 08:45:26,937 | INFO | [SEARCH] Go4WorldBusiness | food service potato buyer india
+2026-10-26 08:45:28,022 | INFO | [SEARCH] Go4WorldBusiness | cold storage potato trader india
+2026-10-26 08:45:28,815 | INFO | [SEARCH] Go4WorldBusiness | vegetable distributor potatoes india
+2026-10-26 08:45:29,622 | INFO | [SEARCH] Go4WorldBusiness | farm produce buyer potato india
+2026-10-26 08:45:30,520 | INFO | [SEARCH] Go4WorldBusiness | food ingredient buyer potato starch india
+2026-10-26 08:45:31,205 | INFO | [SEARCH] Go4WorldBusiness | processed food company potato india
+2026-10-26 08:45:32,038 | INFO | [SEARCH] Go4WorldBusiness | potato export buyer india
+2026-10-26 08:45:32,812 | INFO | [SEARCH] Go4WorldBusiness | potato import company india
+2026-10-26 08:45:33,626 | INFO | [SEARCH] Go4WorldBusiness | potato purchasing manager india
+2026-10-26 08:45:34,403 | INFO | [SEARCH] Go4WorldBusiness | potato sourcing company india
+2026-10-26 08:45:35,296 | INFO | [SEARCH] Go4WorldBusiness | potato contract buyer india
+2026-10-26 08:45:36,057 | INFO | [SEARCH] Go4WorldBusiness | potato b2b buyer india
+2026-10-26 08:45:36,807 | INFO | [SEARCH] Go4WorldBusiness | industrial potato buyer india
+2026-10-26 08:45:37,755 | INFO | [SEARCH] Go4WorldBusiness | potato manufacturer contact india
+2026-10-26 08:45:38,555 | INFO | [SEARCH] Go4WorldBusiness | potato procurement lead india
+2026-10-26 08:45:39,385 | INFO | [SEARCH] Go4WorldBusiness | potato bulk buyer india
+2026-10-26 08:45:40,194 | INFO | [SEARCH] Go4WorldBusiness | potato demand company india
+2026-10-26 08:45:41,033 | INFO | [SEARCH] Go4WorldBusiness | potato buyer email india
+2026-10-26 08:45:41,847 | INFO | [SEARCH] Go4WorldBusiness | potato processing plant india
+2026-10-26 08:45:42,765 | INFO | [ADAPTER DONE] Go4WorldBusiness -> 2 leads
+2026-10-26 08:45:42,767 | INFO | Saved 27 leads
+2026-10-26 08:45:42,767 | INFO | CSV saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.csv
+2026-10-26 08:45:42,767 | INFO | JSON saved to: /home/runner/work/potatoes_Data_scraper/potatoes_Data_scraper/output/india_potato_buyers.json
